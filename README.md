@@ -1,2 +1,2 @@
 # eco-assembly
-e-commerce site for carbon neutral and environmental-friendly consumer products
+e-commerce site for carbon-neutral and environmental-friendly consumer products
