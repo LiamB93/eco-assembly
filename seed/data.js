@@ -27,9 +27,3 @@ const insertData = async () => {
 };
 
 insertData();
-
-name: { type: String, reuqired: true },
-imgURL: { type: String, reuqired: true },
-price: { type: String, required: true },
-description: { type: String, required: true },
-category: { type: String, required: true },

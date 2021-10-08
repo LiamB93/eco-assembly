@@ -4,7 +4,10 @@
   "description": "e-commerce site for carbon-neutral and environmental-friendly consumer products",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:seed": "node seed/data.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/LiamB93/eco-assembly/issues"
   },
