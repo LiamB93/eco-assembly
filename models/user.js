@@ -1,5 +1,5 @@
-import mongoose from 'mongoose'
-const Schema = mongoose.Schema
+import mongoose from "mongoose";
+const Schema = mongoose.Schema;
 
 const User = new Schema(
   {
@@ -11,5 +11,5 @@ const User = new Schema(
     password_digest: { type: String, required: true, select: false },
   },
   { timestamps: true }
-)
-export default mongoose.model('users', User)
+);
+export default mongoose.model("users", User);
