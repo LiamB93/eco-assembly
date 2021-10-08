@@ -9,7 +9,7 @@ const insertData = async () => {
   const user1 = new User({
     username: "rlmorrison",
     email: "rlmorrison.74@gmail.com",
-    password_digest: bcrypt.hash("thebestpassword", 11),
+    password_digest: await bcrypt.hash("thebestpassword", 11),
   });
   await user1.save();
 
