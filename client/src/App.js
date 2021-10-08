@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="bg-red-700">Ray ray</div> 
     </div>
   );
 }
