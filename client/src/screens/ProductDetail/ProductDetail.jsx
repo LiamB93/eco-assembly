@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Layout from "../../components/Layout/Layout";
 import { getProduct, deleteProduct } from "../../services/products";
-import { useParams, Link } from "react-router";
+import { useParams, Link } from "react-router-dom";
 
 const ProductDetail = (props) => {
   const [product, setProduct] = useState(null);

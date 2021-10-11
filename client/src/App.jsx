@@ -1,5 +1,7 @@
 import { Route, Switch, Redirect } from 'react-router-dom'
 import Products from './screens/Products/Products';
+import ProductEdit from './screens/ProductEdit/ProductEdit';
+import ProductDetail from './screens/ProductDetail/ProductDetail';
 import Home from './screens/Home/Home';
 import './App.css';
 
@@ -12,6 +14,9 @@ function App() {
         </Route>
         <Route exact path="/products">
           <Products />
+        </Route>
+        <Route exact path="/products/:id/edit">
+          <ProductEdit />
         </Route>
         <Route exact path="/products/:id">
           <ProductDetail />
