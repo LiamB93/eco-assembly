@@ -2,6 +2,7 @@ import { Route, Switch, Redirect } from 'react-router-dom'
 import Products from './screens/Products/Products';
 import ProductEdit from './screens/ProductEdit/ProductEdit';
 import ProductDetail from './screens/ProductDetail/ProductDetail';
+import ProductCreate from './screens/ProductCreate/ProductCreate';
 import Home from './screens/Home/Home';
 import SignIn from './screens/SignIn/SignIn';
 import SignUp from './screens/SignUp/SignUp';
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/products/:id/edit">
           <ProductEdit />
+        </Route>
+        <Route path="/add-product">
+          <ProductCreate />
         </Route>
         <Route exact path="/products/:id">
           <ProductDetail />
