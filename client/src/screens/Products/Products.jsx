@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Product } from '../../components'
+import  { Product }  from '../../components';
 import { getProducts } from '../../services/products';
 
 function Products(props) {
