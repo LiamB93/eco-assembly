@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import  { Product }  from '../../components';
+import   Product   from '../../components/Product/Product';
+import Layout from '../../components/Layout/Layout';
 import { getProducts } from '../../services/products';
 
 function Products(props) {
