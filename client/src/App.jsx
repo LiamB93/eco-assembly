@@ -7,11 +7,14 @@ function App() {
   return (
     <div className="App">
       <Switch>
+      <Route exact path="/">
+          <Home />
+        </Route>
         <Route exact path="/products">
           <Products />
         </Route>
-        <Route exact path="/">
-          <Home />
+        <Route exact path="/products/:id">
+          <ProductDetail />
         </Route>
       </Switch>
     </div>
