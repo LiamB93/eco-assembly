@@ -217,6 +217,76 @@ const insertData = async () => {
         price: '27.99',
         description: "Be prepared to say no to paper and plastic the next time you're at the store. This produce bag set of 4 contains two mesh bags, and two solid bags to handle all your shopping needs",
         category: 'zeroWaste'
+      },
+      {
+        name: 'Hydro Flask Outdoor Water Jug',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067386/Hydro-Flask-Oasis-Water-Jug-128oz-1_su0rwt.jpg',
+        price: '48.99',
+        description: "Drink in the adventure with the Hydro Flask Oasis Water Jug 128oz. Made from 18/8 pro-grade stainless steel to ensure pure taste and no flavor transfer, this eco-friendly reusable water jug has a proprietary powder coat for an easy grip that won't chip",
+        category: 'outdoor'
+      },
+      {
+        name: 'Recycled Toddler Bike',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067386/2-in-1-recycled-toddler-bike-raw-1_wwz1ju.jpg',
+        price: '124.99',
+        description: "Made from sustainably harvested birch wood, this innovative tricycle is easy to assemble and repair and is incredibly lightweight. It encourages balance and mobility for little ones and features durable tires for outdoor adventuring! An adjustable seat means it's ready to grow with your child for years of fun and play. For 12 months to 5 years",
+        category: 'outdoor'
+      },
+      {
+        name: 'Stainless Mountain Steel Bottle',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067386/United-By-Blue-To-the-Mountains-Stainless-Steel-Bottle-32oz-1_gfllvm.jpg',
+        price: '38.99',
+        description: "Ditch single-use plastic bottles with the To the Mountains Stainless Steel Bottle from United by Blue! Made from double-wall insulated stainless steel, this 32oz water bottle keeps drinks hot or cold for up to 12 hours",
+        category: 'outdoor'
+      },
+      {
+        name: 'Natural Anti Bug Spray',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067386/anti-bug-spray_wokyts.jpg',
+        price: '12.99',
+        description: "Good for your skin, but bad for the bugs, Badger's Anti-Bug Spray is the all natural DEET-free bug repellent you need for warm summer nights. Non-toxic essential oils like citronella, rosemary and wintergreen pairs with a base of organic soybean and castor oil to soothe itchy skin while naturally warding off mosquitos",
+        category: 'outdoor'
+      },
+      {
+        name: 'Recycled Leather Bike Bag',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067387/recycled-leather-bike-bag-aqua-1_ilrwww.jpg',
+        price: '44.99',
+        description: "Made from 100% repurposed nylon that was headed to the landfill by other factories, this bag features a unique colorway, unlike any others",
+        category: 'outdoor'
+      },
+      {
+        name: 'All Terrain Outdoor Stroller',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067387/03-bumbletide-all-terrain-stroller-clay-1-1_b4q9tv.jpg',
+        price: '295.99',
+        description: "Take on any adventure with the Indie All Terrain Stroller,The lightweight, compact frame is made from eco-friendly materials with innovative designs that work for your lifestyle. It has durable air-filled tires and all-wheel suspension for a comfortable ride, plus safety features like a 5-point breakaway harness with shoulder pads",
+        category: 'outdoor'
+      },
+      {
+        name: 'Eco Stainless Steel Kids Lunchbox',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067387/EcoLunchbox-Stainless-Steel-Kids-Camping-Plate-1_doylex.jpg',
+        price: '16.99',
+        description: "No more disposable plates at mealtime with your kids! Plastic-free, lead-free, BPA-free, phthalate-free & waste-free, the Kid's Tray by ECOlunchbox is a perfect camping tray, high-chair tray, divided plate, or cafeteria tray",
+        category: 'outdoor'
+      },
+      {
+        name: 'Eco Friendly Travel Backpack',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067387/Travel_Pack_svdael.jpg',
+        price: '57.99',
+        description: "The Travel Pack is the perfect backpack to take with you on any adventure. Made from lightweight recycled materials, this bag is both earth-friendly and versatile! It conveniently stuffs into a built-in pocket for travel",
+        category: 'outdoor'
+      },
+      {
+        name: 'Natural Bamboo Band-Aids',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067387/patch-large-square-and-rectangles-10pk-charcoal-1-1_qsty1f.jpg',
+        price: '8.99',
+        description: "Heal cuts and scratches naturally with the Large Natural Compostable Bamboo Bandages,Made from 100% organic and natural bamboo fiber with a mineral-based pressure-sensitive adhesive (PSA), this bandage is compostable and biodegradable at the end of its life",
+        category: 'outdoor'
+      },
+      {
+        name: 'Ready to Grow Seed Starter Pack',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634067387/Ready-To-Grow-Seed-Starter_pkqb1e.jpg',
+        price: '2.99',
+        description: "Get growing with the Ready-to-Grow Seed Starter Kit,Featuring seeds, a coco grow medium, and a biodegradable upcycled cow manure container, this kit comes with everything you need — simply drop your new plants into the soil and watch them grow!",
+        category: 'outdoor'
       }
       
       
