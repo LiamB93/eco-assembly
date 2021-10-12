@@ -9,6 +9,7 @@ const ProductCreate = (props) => {
       description: '',
       imgURL: '',
       price: '',
+      category: ''
     })
   
     const [isCreated, setCreated] = useState(false)
@@ -64,6 +65,14 @@ const ProductCreate = (props) => {
             placeholder='Image Link'
             value={product.imgURL}
             name='imgURL'
+            required
+            onChange={handleChange}
+          />
+          <input
+            className='input-category'
+            placeholder='category'
+            value={product.category}
+            name='category'
             required
             onChange={handleChange}
           />

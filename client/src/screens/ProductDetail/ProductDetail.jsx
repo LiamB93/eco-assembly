@@ -2,11 +2,13 @@ import { useState, useEffect } from "react";
 import Layout from "../../components/Layout/Layout";
 import { getProduct, deleteProduct } from "../../services/products";
 import { useParams, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const ProductDetail = (props) => {
   const [product, setProduct] = useState(null);
   const [isLoaded, setLoaded] = useState(false);
   const { id } = useParams();
+  const history = useHistory();
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -19,6 +21,11 @@ const ProductDetail = (props) => {
 
   if (!isLoaded) {
     return <h1>Loading....</h1>;
+  }
+
+  const handleDelete = async () => {
+    await deleteProduct(product._id);
+    history.push("/products");
   }
 
   return (
@@ -39,7 +46,7 @@ const ProductDetail = (props) => {
             </Link>
             <button
               className="delete-button"
-              onClick={() => deleteProduct(product._id)}
+              onClick={handleDelete}
             >
               Delete
             </button>
