@@ -287,6 +287,104 @@ const insertData = async () => {
         price: '2.99',
         description: "Get growing with the Ready-to-Grow Seed Starter Kit,Featuring seeds, a coco grow medium, and a biodegradable upcycled cow manure container, this kit comes with everything you need — simply drop your new plants into the soil and watch them grow!",
         category: 'outdoor'
+      },
+      {
+        name: "Recycled Socks",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068949/Solmate-Socks-Mirage-Solmate-Crew-Socks-1-768x768_vuzndb.jpg",
+        price: "15.99",
+        description: "Maggie's Organics makes their Beekeeper Dress Socks from GOTS Certified organic cotton–a breathable, yet durable fabric that is perfect for everyday wear and washing.",
+        category: "clothing"
+      },
+      {
+        name: "Cork Backpack",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/cork-pocket-backpack-eco-friendly_a3dele.jpg",
+        price: "149.99",
+        description: "A fashionable and functional pocket backpack made from smooth natural cork!",
+        category: "clothing"
+      },
+      {
+        name: "Bamboo Earings",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/chic-circle-eco-friendly-bamboo-earrings_uccmxc.jpg",
+        price: "18.99",
+        description: "Bamboo earings with an elegant, minimalistic design that show off the natural bamboo look and feel. Earrings also double as essential oil diffusers.",
+        category: "clothing"
+      },
+      {
+        name: "Pine Trees Eco T-Shirt",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/Copy-of-cinder-salt-pine-trees-mens-tee-ORG-low-res_cyf3gz.jpg",
+        price: "30.00",
+        description: "Cut from a heavyweight 60% organic cotton % 40% recycled RPET poly jersey knit. Made with zero dye, zero water, and printed in the Cinder + Salt zero waste print shop.",
+        category: "clothing"
+      },
+      {
+        name: "Women's Dorado Half-Zip Fleece Jacket",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/Cotopaxi-Womens-Dorado-Half-Zip-Fleece-Jacket-1_cxugfy.jpg",
+        price: "99.99",
+        description: "Made from 100% eco-friendly recycled polyester, this fleece jacket has front hand pockets and a stretchy, zippered chest pocket.",
+        category: "clothing"
+      },
+      {
+        name: "Organic Cotton Reusable Face Mask",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068949/Organic-Cotton-Face-Mask-1_h9gip1.jpg",
+        price: "19.99",
+        description: "Super soft and ultra-minimal, this mask is made with 100% organic cotton and features cozy over the ear straps (also cotton!).",
+        category: "clothing"
+      },
+      {
+        name: "Women’s Mindo Vegan Sneakers",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068949/Saola_Womens_Mindo_Sand_1_vpg5ge.jpg",
+        price: "109.99",
+        description: "For ultra comfort and a lighter step on the planet, check out the Women's Mindo Vegan Sneakers by SAOLA. Named after Ecuador's breathtaking landscape and biodiversity, the Mindo is the go-to for outdoor exploration or the daily commute.",
+        category: "clothing"
+      },
+      {
+        name: "Pacific Crest Trail Thru-Hiker Trucker Hat",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/11-seek-dry-goods-pacific-crest-trail-thru-hiker-trucker-hat-jungle-1-1_wlbay4.jpg",
+        price: "29.00",
+        description: "The blend of organic cotton and recycled polyester, made from post-consumer plastic, gives the cap a super soft feel for all day comfort. Whether you're having a bad hair day or off for a sunny hike, this hat is the perfect accessory.",
+        category: "clothing"
+      },
+      {
+        name: "Basic Hemp Tank",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/hemptique-basic-hemp-tank-front-gray_wtxxh7.jpg",
+        price: "$24.99",
+        description: "You'll rock any athletic outfit with this organic cotton and hemp knit fabric. It's not only eco-friendly, but antimicrobial too, so it stays fresh throughout the entire day's activities.",
+        category: "clothing"
+      },
+      {
+        name: "Tortuga Kids Recycled Sunglasses",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/04-parafina-tortuga-red-1-1_tbc7hf.jpg",
+        price: "$45.00",
+        description: "Protect your little one's eyes while keeping them looking stylish with the Tortuga Kids Recycled Sunglasses by Parafina! These ultra-light and flexible glasses are made with 100% recycled rubber",
+        category: "clothing"
+      },
+      {
+        name: "Hemp Panama Hat",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/conner-hats-hemp-sun-shade-panama-hat-camel-1_vk1si0.jpg",
+        price: "$49.00",
+        description: "Conner Hats created this perfect breathable and durable hat made out of hemp. This hat will protect you from the sun and be your favorite travel accessory!",
+        category: "clothing"
+      },
+      {
+        name: "Plant Based Tank",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/Copy-of-cinder-salt-plant-based-ladies-tank-low-res_u2wrjs.jpg",
+        price: "32.00",
+        description: "The Plant Based Racerback Tank is hand-printed in a zero waste printshop using reclaim inks. Woot woot!",
+        category: "clothing"
+      },
+      {
+        name: "Unisex Pacific Crest Trail Thru-Hiker Graphic Tee",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068949/06-seek-dry-goods-pacific-crest-trail-thru-hiker-heather-snow-1-1_rfpddr.jpg",
+        price: "27.99",
+        description: "This USA-made tee features an athletic-fit and a hand-drawn image that is screen-printed with low-impact, non-toxic dyes. The blend of organic cotton and recycled polyester, made from post-consumer plastic, gives the shirt a super soft feel for all day comfort.",
+        category: "clothing"
+      },
+      {
+        name: "Live Local Boatneck Sweatshirt",
+        imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/Copy-of-cinder-salt-live-local-ladies-boatneck-v2-low-res_pvilro.jpg",
+        price: "61.99",
+        description: "This ultra-soft pullover is made with a unique blend of organic cotton, recycled polyester, and rayon. The Live Local Boatneck Sweatshirt features a tapered fit, kangaroo pocket and raw-edge neckline.",
+        category: "clothing"
       }
       
       
