@@ -126,7 +126,99 @@ const insertData = async () => {
         price: '14.99',
         description: 'Eco-Orbis lint remover is one of the best eco-friendly lint removers available in the market. It is manufactured with 100% sustainable materials.',
         category: 'homeLife'
+      },
+      {
+        name: '101 Ways to go Zero Waste',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061880/101-ways-to-go-zero-waste_phfx27.jpg',
+        price: '10.99',
+        description: 'From saying no to straws and plastic grocery bags to using compostable dish scrubbers and reusable water bottles, this guide will help you on your journey to plastic-free living. Full of tips, tricks, DIY recipes, and more, 101 Ways to Go Zero Waste dives into responsible consumption and how you can make a difference on the daily.',
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Reusable Glass Cleaning Spray',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061911/refillable-glass-cleaining-spary_zetns3.png',
+        price: '24.99',
+        description: 'Stop wasting money and materials with single-use spray bottles, and switch to a reusable alternative with the Refillable Glass Cleaning Spray Bottle from Meliora. Unlike spray bottles that are made from plastic and cannot usually be recycled at the end of their life, this refillable glass bottle can be used again and again with all sorts of cleaning sprays or DIY recipes.',
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Zero Waste Bamboo Straws',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061911/bamboo-straws_o9suvz.jpg',
+        price: '7.99',
+        description: "Every day, Americans use more than 500 million plastic straws. Replace the waste with bambu's Short Bamboo Straws, the only straws that are certified organic.",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Zero Waste Glass Straws',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061911/Zero-waste-glass-straw_xm1eeh.jpg',
+        price: '12.99',
+        description: "Did you know that Americans use over 500 million plastic straws per day? We know sipping from a straw is better for your teeth, and great for messy kids, seniors, and anyone in between– but single-use plastic straws are creating a huge waste problem.",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Bamboo Straws Travel Set',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061911/bamboo-straw-travel-kit_sxyger.jpg',
+        price: '8.99',
+        description: 'Did you know that Americans use over 500 million plastic straws per day? We know sipping from a straw is better for your teeth, and great for messy kids, seniors, and anyone in between– but single-use plastic straws are creating a huge waste problem.',
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Zero Waste Glass Water Bottle',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061911/zero-waste-glass-water-bottle_x1cajk.jpg',
+        price: '12.99',
+        description: "We're On A Mission To Make The World Less Trashy. 100% Sustainable Goods All In One Place. Make A Positive Environmental Impact By Joining The Zero Waste Movement",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Reusable Wet Wipes',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061911/reusable-wet-wipes_ubp41h.jpg',
+        price: '3.99',
+        description: 'Avoid wasting money on normal wipes for your daily cleaning. Switch to resuable wipes to save your pocket and the environment',
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Recycling Kitchen Bags',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061911/recycling-kitchen-bags_v5msut.jpg',
+        price: '24.99',
+        description: "Be prepared to say no to paper and plastic the next time you're at the store. This produce bag set of 4 contains two mesh bags, and two solid bags to handle all your shopping needs",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Hydro Flask Coffee Mug',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061912/hydro-flask-coffee-mug_sk0mqw.jpg',
+        price: '54.99',
+        description: "Reduce your waste from the coffee shop with the Hydro Flask Flex Sip Coffee Mug 16oz! Made from 18/8 pro-grade stainless steel to ensure pure taste and no flavor transfer, this eco-friendly reusable coffee mug fits under most coffee brewing systems and has a leak-proof lid with a smooth flow opening",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Reusable Grocey Bag',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061912/reusable-grocey-bag_ajtguf.jpg',
+        price: '24.99',
+        description: "Be prepared to say no to paper and plastic the next time you're at the store. This produce bag set of 4 contains two mesh bags, and two solid bags to handle all your shopping needs",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Zero Waste Insulated Water Bottle',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061912/zero-waste-insulated-water-bottle_rbfbuq.jpg',
+        price: '49.99',
+        description: "A better bottle. The Stainless Steel Reusable Water Bottle from A Good Company makes it easy to ditch the single-use plastic bottle! Made from double-walled vacuum insulated stainless steel, this bottle keeps cold drinks cold for 48 hours, and hot drinks hot for 20 hours",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Reusbale Produce Bag',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061912/reusable-produce-bag_vrwajd.jpg',
+        price: '28.99',
+        description: "Be prepared to say no to paper and plastic the next time you're at the store. This produce bag set of 4 contains two mesh bags, and two solid bags to handle all your shopping needs",
+        category: 'zeroWaste'
+      },
+      {
+        name: 'Eco Friendly Grocery Bag',
+        imgURL: 'https://res.cloudinary.com/desk8znsq/image/upload/v1634061912/Eco-friendly-grocery-bag-set_bwjgxy.jpg',
+        price: '27.99',
+        description: "Be prepared to say no to paper and plastic the next time you're at the store. This produce bag set of 4 contains two mesh bags, and two solid bags to handle all your shopping needs",
+        category: 'zeroWaste'
       }
+      
       
 ];
 
