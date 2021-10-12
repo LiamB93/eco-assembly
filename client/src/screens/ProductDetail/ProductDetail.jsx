@@ -25,7 +25,7 @@ const ProductDetail = (props) => {
 
   const handleDelete = async () => {
     await deleteProduct(product._id);
-    history.push("/products");
+    history.push("/");
   }
 
   return (

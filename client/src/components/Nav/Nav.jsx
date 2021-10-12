@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 function Nav() {
   return (
     <div className="products-nav">
-      <NavLink to="/products">Home & Life</NavLink>{" "}
-      <NavLink to="/products">Clothing</NavLink>{" "}
-      <NavLink to="/products">Outdoor</NavLink>{" "}
-      <NavLink to="/products">Zero Waste</NavLink>{" "}
+      <NavLink to="/products/homelife">Home & Life</NavLink>{" "}
+      <NavLink to="/products/clothing">Clothing</NavLink>{" "}
+      <NavLink to="/products/outdoor">Outdoor</NavLink>{" "}
+      <NavLink to="/products/zerowaste">Zero Waste</NavLink>{" "}
 
     </div>
   )
