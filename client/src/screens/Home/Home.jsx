@@ -1,4 +1,5 @@
 import Layout from "../../components/Layout/Layout";
+import './Home.css'
 
 function Home(props) {
   return (
