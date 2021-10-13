@@ -3,6 +3,7 @@ import Layout from "../../components/Layout/Layout";
 import { getProduct, deleteProduct } from "../../services/products";
 import { useParams, Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
+import './ProductDetail.css';
 
 const ProductDetail = (props) => {
   const [product, setProduct] = useState(null);
