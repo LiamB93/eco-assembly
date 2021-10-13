@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.toothbrush{
+    height: 200px;
+    width: 800px;
+    border-color: red;
+    border-width: 1px;
+    
+}
+
+.placeholder-products{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.place-holder-img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px;
+}
