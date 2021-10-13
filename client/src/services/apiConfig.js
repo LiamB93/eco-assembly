@@ -8,7 +8,7 @@ const getToken = () => {
 
 const api = axios.create({
   baseURL: process.env.NODE_ENV === 'production'
-    ? 'https://eco-assembly-app.herokuapp.com/'
+    ? 'https://eco-assembly-app.herokuapp.com/api'
     : 'http://localhost:3000/api'
 })
 
