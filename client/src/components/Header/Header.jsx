@@ -1,6 +1,7 @@
 import Nav from "../Nav/Nav";
 import { Link, NavLink } from "react-router-dom"
 import "./Header.css";
+import logo from '../../ecologo.png'
 
 
 const authenticatedOptions = (
@@ -32,7 +33,7 @@ function Header({ user }) {
         </div>
       </div>
       <div className="bottom-header">
-        <Link to="/" className="home-link">ECOassembly</Link>
+        <Link to="/" className="home-link"><img src = {logo} /></Link>
       </div>
       <Nav />
 

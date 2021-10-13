@@ -7,7 +7,8 @@
 .toothbrush{
     height: 200px;
     width: 800px;
-    text-align: center;
+    border-color: red;
+    border-width: 1px;
     
 }
 
