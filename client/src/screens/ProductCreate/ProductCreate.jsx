@@ -2,10 +2,8 @@ import Layout from "../../components/Layout/Layout";
 import { createProduct } from "../../services/products";
 import { Redirect } from "react-router-dom";
 import { useState } from "react";
-import { useParams } from "react-router";
 
 const ProductCreate = (props) => {
-  const {category} = useParams()
   const [product, setProduct] = useState({
     name: "",
     description: "",
