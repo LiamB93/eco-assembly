@@ -60,6 +60,7 @@ const SignIn = (props) => {
         <form onSubmit={onSignIn}>
           <label>Email</label>
           <input
+            autoFocus
             required
             type="text"
             name="email"
