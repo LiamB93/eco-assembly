@@ -1,5 +1,7 @@
 import Nav from "../Nav/Nav";
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
+import "./Header.css";
+import ecologo from "../src/logo/ecologo.png";
 
 const authenticatedOptions = (
   <>
@@ -22,16 +24,19 @@ const alwaysOptions = (
 function Header({ user }) {
   return (
     <nav>
-      <div className="header">
-        <NavLink className="logo" to="/">ECOassembly</NavLink>
-        <div className="links">
+      <div className="top-header">
+        <div className="header-links">
           {user && <div className="link welcome">Welcome, {user.username}</div>}
-          {alwaysOptions}
+          {/* {alwaysOptions} */}
           {user ? authenticatedOptions : unauthenticatedOptions}
         </div>
-        <Nav />
-
       </div>
+      <div className="bottom-header">
+        <Link to="/" className="home-link"><a href="" className="logo"><img className="logo" src={ecologo} alt="logo" /></a></Link>
+      </div>
+      <Nav />
+
+
     </nav>
   )
 }
