@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+.top-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #064A75;
+  font-family: "Rowdies";
+  height: 70px;
+  color: white;
+}
+
+.bottom-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DCF9D7;
+  height: 110px;
+  font-family: "Rowdies";
+  align-content: baseline;
+
+}
+
+.header-links{
+  display: flex;
+  align-content: space-between;
+  margin-top: 20px;
+  margin-right: 30px;
+  gap: 20px;
+}
