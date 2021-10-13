@@ -1,4 +1,22 @@
-.products-nav{
-  background-color: #DCF9D7;
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
+.products-nav{
+  font-family: "Rowdies";
+  font-size: 18px;
+  align-content: center;
+  background-color: white;
+  box-shadow: 1px 1px 1px .3px #CECECE;
+  height: 50px;
+
+}
+.links{
+  display: flex;
+  align-items: center;
+  margin: 20px 10px 10px 10px;
+  gap: 35px;
+ 
+}
+
+.links:hover{
+  text-decoration: underline;
 }
