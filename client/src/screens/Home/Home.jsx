@@ -1,12 +1,13 @@
 import Layout from "../../components/Layout/Layout";
 import './Home.css'
+import toothbrush from './toothbrush.jpg';
 
 function Home(props) {
   return (
     <Layout user={props.user}>
       <div className="home">
         <div className="home-image">
-          
+          <img src  = {toothbrush} />
         </div>
         <div className="mission">
           <h1>People & Planet</h1>
