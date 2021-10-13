@@ -75,7 +75,7 @@ const SignUp = (props) => {
             <div className="flex flex-col place-items-start w-full px-8 py-2">
               <label className="font-semibold text-white">Username</label>
               <input
-                className="border py-2 px-4 rounded-lg w-full mt-1 placeholder-gray-400 border-gray-400"
+                className="border py-2 px-4 rounded-lg w-full mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 autoFocus
                 required
                 type="text"
@@ -90,7 +90,7 @@ const SignUp = (props) => {
                 Email address
               </label>
               <input
-                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400"
+                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 required
                 type="email"
                 name="email"
@@ -102,7 +102,7 @@ const SignUp = (props) => {
             <div className="flex flex-col place-items-start py-2 w-full px-8">
               <label className="font-semibold text-white">Password</label>
               <input
-                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder placeholder-gray-400 border-gray-400"
+                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder placeholder-gray-400 border-gray-400 focus: outline-none"
                 required
                 name="password"
                 value={password}
@@ -116,7 +116,7 @@ const SignUp = (props) => {
                 Password Confirmation
               </label>
               <input
-                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400"
+                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 required
                 name="passwordConfirmation"
                 value={passwordConfirmation}
