@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+import "./Footer.css"
 
 function Footer() {
   return (
 
-    <footer>
+    <footer className="footer">
       <nav>
         <NavLink className="logo" to="/">ECOassembly</NavLink>
 
