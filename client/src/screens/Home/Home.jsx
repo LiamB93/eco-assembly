@@ -6,7 +6,7 @@ function Home(props) {
     <Layout user={props.user}>
       <div className="home">
         <div className="home-image">
-          <img src = {} />
+          
         </div>
         <div className="mission">
           <h1>People & Planet</h1>
