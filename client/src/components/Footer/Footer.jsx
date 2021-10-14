@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "./Footer.css"
+import logo from '../../ecologo.png'
 
 function Footer() {
   return (
 
     <footer className="footer">
 
-      <NavLink className="logo" to="/">ECOassembly</NavLink>
+      <NavLink className="logo" to="/"><img src = {logo} /></NavLink>
 
       <h3 className="meet-team">Liam Baker, Ray Morrison, and Miguel Galindo contributed to ECOassembly</h3>
       <div className="newsletter">
