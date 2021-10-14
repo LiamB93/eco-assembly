@@ -3,7 +3,7 @@ import Product from "../../components/Product/Product";
 import Layout from "../../components/Layout/Layout";
 import { getProducts } from "../../services/products";
 import { useLocation } from "react-router-dom";
-import homeLife3 from "./bannerImages/homeLife3.png";
+import homeLife from "./bannerImages/homeLife.jpg";
 import outdoor from "./bannerImages/outdoor.jpg";
 import clothing from "./bannerImages/clothing.jpg";
 import zeroWaste from "./bannerImages/zeroWaste.jpg";
@@ -42,7 +42,7 @@ function Products(props) {
 
   useEffect(() => {
     if (category === "homeLife") {
-      setHeaderImage(homeLife3);
+      setHeaderImage(homeLife);
       setTitle("Home & Life");
     } else if (category === "clothing") {
       setHeaderImage(clothing);
@@ -60,9 +60,9 @@ function Products(props) {
     <div className="w-screen">
       <Layout user={props.user}>
         <div className="flex justify-center relative min-w-full max-h-96">
-          <img src={headerImage} alt={title} className="object-cover object-top w-full" />
-          <div className="absolute top-1/2 bg-gray-400 bg-opacity-50">
-            <h2 className="font-bold text-2xl text-gray-100">{title}</h2>
+          <img src={headerImage} alt={title} className="object-cover w-full" />
+          <div className="absolute top-1/2 bg-gray-800 bg-opacity-50">
+            <h2 className="font-bold text-2xl text-gray-100 p-8">{title}</h2>
           </div>
         </div>
         <div className="products">
