@@ -3,11 +3,10 @@ import Product from "../../components/Product/Product";
 import Layout from "../../components/Layout/Layout";
 import { getProducts } from "../../services/products";
 import { useLocation } from "react-router-dom";
-import homeLife from "./bannerImages/homeLife.jpg"
-import homeLife2 from "./bannerImages/homeLife2.jpg"
-import outdoor from './bannerImages/outdoor.jpg'
-import clothing from './bannerImages/clothing.jpg'
-import zeroWaste from './bannerImages/zeroWaste.jpg'
+import homeLife3 from "./bannerImages/homeLife3.png";
+import outdoor from "./bannerImages/outdoor.jpg";
+import clothing from "./bannerImages/clothing.jpg";
+import zeroWaste from "./bannerImages/zeroWaste.jpg";
 
 function Products(props) {
   const [category, setCategory] = useState("");
@@ -43,7 +42,7 @@ function Products(props) {
 
   useEffect(() => {
     if (category === "homeLife") {
-      setHeaderImage(homeLife2);
+      setHeaderImage(homeLife3);
       setTitle("Home & Life");
     } else if (category === "clothing") {
       setHeaderImage(clothing);
@@ -58,11 +57,13 @@ function Products(props) {
   }, [category]);
 
   return (
-    <div>
+    <div className="w-screen">
       <Layout user={props.user}>
-        <div>
-          <h2>{title}</h2>
-          <img src={headerImage} alt={title} />
+        <div className="flex justify-center relative min-w-full max-h-96">
+          <img src={headerImage} alt={title} className="object-cover object-top w-full" />
+          <div className="absolute top-1/2 bg-gray-400 bg-opacity-50">
+            <h2 className="font-bold text-2xl text-gray-100">{title}</h2>
+          </div>
         </div>
         <div className="products">
           {products
