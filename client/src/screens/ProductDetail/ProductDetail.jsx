@@ -31,14 +31,14 @@ const ProductDetail = (props) => {
   };
 
   const authenticatedOptions = (
-    <>
+    <div className="button-container">
       <Link className="edit-button" to={`/products/${product._id}/edit`}>
         Edit
       </Link>
       <button className="delete-button" onClick={handleDelete}>
         Delete
       </button>
-    </>
+    </div>
   );
   return (
     <Layout user={props.user}>
@@ -53,9 +53,7 @@ const ProductDetail = (props) => {
           <div className="price">{`$${product.price}`}</div>
           <div className="description">{product.description}</div>
         </div>
-        <div className="button-container">
-          {user ? authenticatedOptions : ""}
-        </div>
+        {user ? authenticatedOptions : ""}
       </div>
     </Layout>
   );
