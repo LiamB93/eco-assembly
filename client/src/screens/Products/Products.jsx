@@ -3,6 +3,11 @@ import Product from "../../components/Product/Product";
 import Layout from "../../components/Layout/Layout";
 import { getProducts } from "../../services/products";
 import { useLocation } from "react-router-dom";
+import homeLife from "./bannerImages/homeLife.jpg"
+import homeLife2 from "./bannerImages/homeLife2.jpg"
+import outdoor from './bannerImages/outdoor.jpg'
+import clothing from './bannerImages/clothing.jpg'
+import zeroWaste from './bannerImages/zeroWaste.jpg'
 
 function Products(props) {
   const [category, setCategory] = useState("");
@@ -38,16 +43,16 @@ function Products(props) {
 
   useEffect(() => {
     if (category === "homeLife") {
-      setHeaderImage("google.com/images");
+      setHeaderImage(homeLife2);
       setTitle("Home & Life");
     } else if (category === "clothing") {
-      setHeaderImage("google.com/images");
+      setHeaderImage(clothing);
       setTitle("Clothing");
     } else if (category === "outdoor") {
-      setHeaderImage("google.com/images");
+      setHeaderImage(outdoor);
       setTitle("Outdoor");
     } else {
-      setHeaderImage("google.com/images");
+      setHeaderImage(zeroWaste);
       setTitle("Zero Waste");
     }
   }, [category]);

@@ -44,20 +44,15 @@ const ProductEdit = (props) => {
     <Layout user={props.user}>
       <div className="product-edit flex flex-col h-screen w-screen mt-12">
         <h1 className="text-4xl italic font-bold pb-4">Edit Product</h1>
-        <div className="image-form-container flex justify-center h-2/3 w-full pt-4">
-          <div className="image-container w-5/12 mx-4 border rounded-xl overflow-hidden shadow-2xl flex flex-col place-items-center">
+        <div className="image-form-container flex justify-center h-9/12 w-full pt-4">
+          <div className="image-container w-5/12 mx-4 border rounded-xl overflow-hidden shadow-2xl flex flex-col place-items-center justify-center">
             <img
               className="edit-product-image"
               src={product.imgURL}
               alt={product.name}
             />
-            <div className="w-5/6">
-            <form onSubmit={handleSubmit} className="w-full">
-             
-            </form>
-            </div>
           </div>
-          <div className="form-container w-5/12 px-12 py-2 bg-six rounded-lg">
+          <div className="form-container w-5/12 px-12 py-2 bg-six rounded-lg flex flex-col place-items-center justify-center">
             <form className="edit-form" onSubmit={handleSubmit}>
               <div className="flex flex-col place-items-start py-1">
                 <label className="font-semibold text-white">Product Name</label>
@@ -99,7 +94,7 @@ const ProductEdit = (props) => {
                 />
               </div>
               <div className="flex flex-col place-items-start py-1">
-              <label className="font-semibold text-white">Image URL</label>
+                <label className="font-semibold text-white">Image URL</label>
                 <input
                   className="edit-input-image-link border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                   placeholder="Image Link"
