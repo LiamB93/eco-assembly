@@ -35,7 +35,7 @@ const ProductDetail = (props) => {
 
   return (
     <Layout user={props.user}>
-      <div className="product-detail">
+      <div className="product-detail h-full">
         <img
           className="product-detail-image"
           src={product.imgURL}

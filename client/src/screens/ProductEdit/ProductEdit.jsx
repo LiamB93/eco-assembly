@@ -63,7 +63,6 @@ const ProductEdit = (props) => {
                   value={product.name}
                   name="name"
                   required
-                  autoFocus
                   onChange={handleChange}
                 />
               </div>
