@@ -32,7 +32,7 @@ function Header({ user }) {
         </div>
       </div>
       <div className="bottom-header">
-        <Link to="/" className="logo"><img src={logo} /></Link>
+        <Link to="/" className="logo"><img src={logo} alt="logo" /></Link>
       </div>
       <Nav />
 
