@@ -52,8 +52,8 @@ const ProductDetail = (props) => {
           <div className="name">{product.name}</div>
           <div className="price">{`$${product.price}`}</div>
           <div className="description">{product.description}</div>
-        </div>
         {user ? authenticatedOptions : ""}
+        </div>
       </div>
     </Layout>
   );
