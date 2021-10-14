@@ -16,17 +16,18 @@ function Home(props) {
             </div> 
           <div className = 'inner-image-quote'>
               <div className = "quote"> Do your part to help save the environment</div>
+              <p className = "quote1"> Grab Your Pack of Eco Friendly Tooth Brush Today!</p>
               <Link className = 'image-link' to = '/products/homelife/6165eb6b064efd8834217b9e'>
-               Explore Options
+               <div className = "explore">Explore Options</div>
               </Link>
           </div>
         </div>
         <div className="mission">
-          <h1>People & Planet</h1>
-          <h3>Our mission is simple: Make finding earth-conscious products easy. We put people and the planet first when it comes to deciding which products to offer.</h3>
+          <h1 className = "people">People & Planet</h1>
+          <h3 className = "mission-statement">Our mission is simple: Make finding earth-conscious products easy. We put people and the planet first when it comes to deciding which products to offer.</h3>
         </div>
       <div className = "customer-favorites">
-        <div>
+        <div className = "customer">
           Customer Favorites
         </div>
         <div className = "placeholder-products">
