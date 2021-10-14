@@ -5,15 +5,27 @@ function Footer() {
   return (
 
     <footer className="footer">
-      <nav>
-        <NavLink className="logo" to="/">ECOassembly</NavLink>
 
-        <h3>Meet the Team</h3>
-        <p>Liam Baker, Ray Morrison, and Miguel Galindo contributed to ECOassembly</p>
+      <NavLink className="logo" to="/">ECOassembly</NavLink>
 
-      </nav>
+      <h3 className="meet-team">Liam Baker, Ray Morrison, and Miguel Galindo contributed to ECOassembly</h3>
+      <div className="newsletter">
+        <label className="label">Newsletter</label> <br />
+        <form>
+          <input
+            placeholder="Enter your email"
+            type="email"
+          />
+          <br />
+          <button className="button">Subscribe</button>
+        </form>
+      </div>
 
-    </footer>
+
+
+
+
+    </footer >
 
   )
 }
