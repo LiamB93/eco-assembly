@@ -31,3 +31,14 @@
 .link:hover{
   text-decoration: underline;
 }
+
+.logo:hover{
+  opacity: 70%;
+}
+.promo{
+  padding-right: 550px;
+
+}
+.ten-percent{
+  color: #57BE56;
+}

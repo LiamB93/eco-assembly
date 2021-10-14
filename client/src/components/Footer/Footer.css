@@ -18,6 +18,7 @@
   }
 
   .button{
+    margin-top: 15px;
     background-color: #2F4858;
     color: #57BE56;
     border-radius: 8%;
@@ -29,5 +30,17 @@
   }
 
   .meet-team{
-    color: #57BE56;
+    color:#57BE56;
   }
+
+  .form{
+    padding-top: 10px;
+  }
+
+  .logo:hover{
+    opacity: 70%;
+  }
+  .button:hover{
+    opacity: 70%;
+  }
+  

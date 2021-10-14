@@ -7,13 +7,13 @@ function Footer() {
 
     <footer className="footer">
 
-      <NavLink className="logo" to="/"><img src = {logo} /></NavLink>
+      <NavLink className="logo" to="/"><img src={logo} /></NavLink>
 
       <h3 className="meet-team">Liam Baker, Ray Morrison, and Miguel Galindo contributed to ECOassembly</h3>
       <div className="newsletter">
         <label className="label">Newsletter</label> <br />
-        <form>
-          <input
+        <form className="form">
+          <input className="px-2 rounded-lg focus:outline-none"
             placeholder="Enter your email"
             type="email"
           />
