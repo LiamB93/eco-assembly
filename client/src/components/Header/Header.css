@@ -27,3 +27,7 @@
   margin-right: 30px;
   gap: 20px;
 }
+
+.link:hover{
+  text-decoration: underline;
+}
