@@ -5,10 +5,10 @@ function Nav() {
   return (
     <div className="products-nav">
       <div className="links">
-        <NavLink to="/products/homelife">Home & Life</NavLink>{" "}
-        <NavLink to="/products/clothing">Clothing</NavLink>{" "}
-        <NavLink to="/products/outdoor">Outdoor</NavLink>{" "}
-        <NavLink to="/products/zerowaste">Zero Waste</NavLink>{" "}
+        <NavLink className="home-life" to="/products/homelife">Home & Life</NavLink>{" "}
+        <NavLink className="clothing" to="/products/clothing">Clothing</NavLink>{" "}
+        <NavLink className="outdoor" to="/products/outdoor">Outdoor</NavLink>{" "}
+        <NavLink className="zero-waste" to="/products/zerowaste">Zero Waste</NavLink>{" "}
       </div>
 
     </div>
