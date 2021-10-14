@@ -16,11 +16,7 @@ const unauthenticatedOptions = (
     <NavLink className="link" to="/sign-in">Log In</NavLink>
   </>
 )
-const alwaysOptions = (
-  <>
-    <NavLink className="link" to="/">ECOassembly</NavLink>
-  </>
-)
+
 
 function Header({ user }) {
   return (
@@ -32,7 +28,6 @@ function Header({ user }) {
         </div>
         <div className="header-links">
           {user && <div className="link welcome">Welcome, {user.username}</div>}
-          {/* {alwaysOptions} */}
           {user ? authenticatedOptions : unauthenticatedOptions}
         </div>
       </div>
