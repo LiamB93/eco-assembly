@@ -16,11 +16,11 @@ const unauthenticatedOptions = (
     <NavLink className="link" to="/sign-in">Log In</NavLink>
   </>
 )
-const alwaysOptions = (
-  <>
-    <NavLink className="link" to="/">ECOassembly</NavLink>
-  </>
-)
+// const alwaysOptions = (
+//   <>
+//     <NavLink className="link" to="/">ECOassembly</NavLink>
+//   </>
+// )
 
 function Header({ user }) {
   return (
@@ -37,7 +37,7 @@ function Header({ user }) {
         </div>
       </div>
       <div className="bottom-header">
-        <Link to="/" className="logo"><img src={logo} /></Link>
+        <Link to="/" className="logo"><img src={logo} alt="logo" /></Link>
       </div>
       <Nav />
 
