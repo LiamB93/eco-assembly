@@ -26,6 +26,10 @@ function Header({ user }) {
   return (
     <nav>
       <div className="top-header">
+        <div className="promo">
+          <p className="ten-percent">SAVE 10% SITEWIDE + PLANT 5 TREES WITH EACH PURCHASE</p>
+          <p>USE CODE: PLANTSTREES<br />Free Shipping $50+ | Free Returns | Best Price Guaranteed</p>
+        </div>
         <div className="header-links">
           {user && <div className="link welcome">Welcome, {user.username}</div>}
           {/* {alwaysOptions} */}
@@ -33,7 +37,7 @@ function Header({ user }) {
         </div>
       </div>
       <div className="bottom-header">
-        <Link to="/" className="home-link"><img src = {logo} /></Link>
+        <Link to="/" className="logo"><img src={logo} /></Link>
       </div>
       <Nav />
 

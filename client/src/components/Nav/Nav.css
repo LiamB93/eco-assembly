@@ -7,7 +7,7 @@
   background-color: white;
   box-shadow: 1px 1px 2px .3px #CECECE;
   height: 50px;
-  border-bottom: #CECECE;
+  
 
 }
 .links{
@@ -16,6 +16,7 @@
   align-items: center;
   margin: 20px 10px 10px 10px;
   gap: 35px;
+  
  
 }
 
