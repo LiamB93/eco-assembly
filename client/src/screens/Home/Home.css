@@ -1,16 +1,15 @@
 .home{
     display: flex;
     flex-direction: column;
-    border-width: 2px;
-    border-color: tomato;
+    margin-top: 80px;
+   
 
 }
 
 .home-image{
     display: flex;
     justify-content: center;
-    border-width: 2px;
-    border-color: black;
+   
 }
 
 .toothbrush-div{
@@ -25,31 +24,94 @@
 }
 
 .inner-image-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
-  
+    margin-top: 80px;
     background: rgb(72, 72, 72,.30);
   width: 600px;
   height: 150px;
-  position: absolute;
+  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .quote{
+    
+    font-weight: bold;
     font-size: 28px;
     color: white;
 }
 
+.quote1{
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
 .image-link{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    background: #007983;
+    color: white;
+    width: 200px;
+    height: 25px;
+    border-radius: 50px;
+    align-self: center;
+    margin-top: 15px;
+    
+    
+}
+
+.explore{
+    
+    font-weight: bold;
+    text-align: center;
+}
+
+.mission{
+    margin-top: 50px;
+    
+    
+
+    
+    
+}
+
+.people{
+    font-size: 38px;
+    color: #2F4858;
+    font-weight: bolder;
+}
+
+.mission-statement{
+    font-size: 24px;
+    color: #789974;
+    font-weight: bold;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+.customer-favorites{
+    margin-top: 40px;
+    
+}
+
+.customer{
+    font-size: 18px;
+    color: #2F4858;
+    font-weight: bold;
 }
 
 .placeholder-products{
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .place-holder-img{
