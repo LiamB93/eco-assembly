@@ -1,15 +1,50 @@
 .home{
     display: flex;
     flex-direction: column;
+    border-width: 2px;
+    border-color: tomato;
 
 }
 
+.home-image{
+    display: flex;
+    justify-content: center;
+    border-width: 2px;
+    border-color: black;
+}
+
+.toothbrush-div{
+    position: relative;
+}
+
 .toothbrush{
-    height: 200px;
-    width: 800px;
-    border-color: red;
-    border-width: 1px;
     
+    height: 300px;
+    width: 800px;
+    object-fit: cover;
+}
+
+.inner-image-quote{
+    position: absolute;
+  
+    background: rgb(72, 72, 72,.30);
+  width: 600px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quote{
+    font-size: 28px;
+    color: white;
+}
+
+.image-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 .placeholder-products{

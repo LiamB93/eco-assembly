@@ -11,11 +11,13 @@ function Home(props) {
     <Layout user={props.user}>
       <div className="home">
         <div className="home-image">
-          <img className = 'toothbrush' alt ='tooth-brush' src  = {toothbrush} />
+          <div className = "toothbrush-div">
+            <img className = 'toothbrush' alt ='tooth-brush' src  = {toothbrush} />
+            </div> 
           <div className = 'inner-image-quote'>
-              <h3> Do your part to help save the environment</h3>
+              <div className = "quote"> Do your part to help save the environment</div>
               <Link className = 'image-link' to = '/products/homelife/6165eb6b064efd8834217b9e'>
-                Explore Options
+               Explore Options
               </Link>
           </div>
         </div>
