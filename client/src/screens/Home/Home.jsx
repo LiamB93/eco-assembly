@@ -1,9 +1,6 @@
 import Layout from "../../components/Layout/Layout";
 import './Home.css'
 import toothbrush from '../../toothbrush.jpg';
-import bike from '../../bike.jpg';
-import flask from '../../flask.jpg';
-import straws from '../../straws.jpg';
 import { Link } from 'react-router-dom';
 import React from "react";
 
