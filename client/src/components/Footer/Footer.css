@@ -58,7 +58,9 @@
   .ray:hover{
     opacity: 60%;
   }
-  span{
+  .span{
     color: #577E53;
   }
-  
+  .ga:hover{
+    opacity: 60%;
+  }
