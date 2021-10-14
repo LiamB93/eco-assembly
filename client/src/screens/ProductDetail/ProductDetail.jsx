@@ -3,7 +3,7 @@ import Layout from "../../components/Layout/Layout";
 import { getProduct, deleteProduct } from "../../services/products";
 import { useParams, Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
-import './ProductDetail.css';
+import "./ProductDetail.css";
 
 const ProductDetail = (props) => {
   const [product, setProduct] = useState(null);
@@ -27,7 +27,7 @@ const ProductDetail = (props) => {
   const handleDelete = async () => {
     await deleteProduct(product._id);
     history.push("/");
-  }
+  };
 
   return (
     <Layout user={props.user}>
@@ -45,10 +45,7 @@ const ProductDetail = (props) => {
             <Link className="edit-button" to={`/products/${product._id}/edit`}>
               Edit
             </Link>
-            <button
-              className="delete-button"
-              onClick={handleDelete}
-            >
+            <button className="delete-button" onClick={handleDelete}>
               Delete
             </button>
           </div>
