@@ -4,7 +4,7 @@ import "./Layout.css";
 
 function Layout(props) {
   return (
-    <div className="layout">
+    <div className="layout w-screen">
       <Header user={props.user} />
       <div className="layout-children bg-gray-100">
         {props.children}
