@@ -77,7 +77,7 @@ const ProductCreate = (props) => {
               />
             </div>
             <div className="flex flex-col place-items-start w-4/5 px-8 py-2">
-              <label className="font-semibold text-white">Image Link</label>
+              <label className="font-semibold text-white">Image URL</label>
               <input
                 className="input-image-link border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 placeholder="Image Link"
