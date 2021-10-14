@@ -14,11 +14,12 @@
   }
 
   .newsletter{
-    column-gap: 30px;
+  column-gap: 30px;
   }
 
   .button{
     margin-top: 15px;
+    margin-bottom: 10px;
     background-color: #2F4858;
     color: #57BE56;
     border-radius: 8%;
@@ -26,6 +27,7 @@
   }
 
   .label{
+    font-size: 20px;
     color: #57BE56;
   }
 
@@ -33,14 +35,30 @@
     color:#57BE56;
   }
 
-  .form{
-    padding-top: 10px;
+  .text{
+    padding-top: 8px;
+    color: #2F4858;
   }
+
+  
 
   .logo:hover{
     opacity: 70%;
   }
   .button:hover{
     opacity: 70%;
+  }
+
+  .liam:hover{
+    opacity: 60%;
+  }
+  .miguel:hover{
+    opacity: 60%;
+  }
+  .ray:hover{
+    opacity: 60%;
+  }
+  span{
+    color: #577E53;
   }
   
