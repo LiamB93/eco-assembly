@@ -7,7 +7,7 @@ function Footer() {
 
     <footer className="footer">
 
-      <NavLink className="logo" to="/"><img src={logo} /></NavLink>
+      <NavLink className="logo" to="/"><img src={logo} alt = "logo" /></NavLink>
 
       <h3 className="meet-team">Liam Baker, Ray Morrison, and Miguel Galindo contributed to ECOassembly</h3>
       <div className="newsletter">
@@ -18,7 +18,7 @@ function Footer() {
             type="email"
           />
           <br />
-          <button className="button">Subscribe</button>
+          <button onClick={ () =>window.open('https://mailchi.mp/8d6bbf366357/ztmmig', '_blank')} className="button">Subscribe</button>
         </form>
       </div>
 
