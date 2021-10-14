@@ -5,15 +5,12 @@ import { useParams, Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import "./ProductDetail.css";
 
-
-
 const ProductDetail = (props) => {
+  const { user } = props;
   const [product, setProduct] = useState(null);
   const [isLoaded, setLoaded] = useState(false);
   const { id } = useParams();
   const history = useHistory();
-
-
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -33,6 +30,16 @@ const ProductDetail = (props) => {
     history.push("/");
   };
 
+  const authenticatedOptions = (
+    <>
+      <Link className="edit-button" to={`/products/${product._id}/edit`}>
+        Edit
+      </Link>
+      <button className="delete-button" onClick={handleDelete}>
+        Delete
+      </button>
+    </>
+  );
   return (
     <Layout user={props.user}>
       <div className="product-detail h-full">
@@ -45,13 +52,9 @@ const ProductDetail = (props) => {
           <div className="name">{product.name}</div>
           <div className="price">{`$${product.price}`}</div>
           <div className="description">{product.description}</div>
-          <div className="button-container">
-            <Link className="edit-button" to={`/products/${product._id}/edit`}>Edit</Link>
-            <button className="delete-button" onClick={handleDelete}>Delete</button>
-          </div>
-
-
-
+        </div>
+        <div className="button-container">
+          {user ? authenticatedOptions : ""}
         </div>
       </div>
     </Layout>
