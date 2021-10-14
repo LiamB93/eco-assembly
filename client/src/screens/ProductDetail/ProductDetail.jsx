@@ -30,7 +30,7 @@ const ProductDetail = (props) => {
   }
 
   return (
-    <Layout>
+    <Layout user={props.user}>
       <div className="product-detail">
         <img
           className="product-detail-image"

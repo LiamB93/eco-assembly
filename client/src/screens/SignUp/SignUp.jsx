@@ -86,9 +86,7 @@ const SignUp = (props) => {
               />
             </div>
             <div className="flex flex-col place-items-start py-2 w-full px-8">
-              <label className="font-semibold text-white">
-                Email address
-              </label>
+              <label className="font-semibold text-white">Email address</label>
               <input
                 className="border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 required
