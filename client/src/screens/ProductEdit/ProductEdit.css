@@ -1,0 +1,123 @@
+/* @media only screen 
+and (max-device-width: 320px)
+  and (min-device-width: 375px) 
+  and (max-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) 
+        { 
+            .product-edit{
+               
+                display: flex;
+                flex-direction: column;
+            }
+            .image-form-container{
+                
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .image-container{
+                
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .form-container{
+                margin-top: 10px;
+                
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        @media only screen 
+and (min-device-width: 320px)
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .product-edit{
+               
+        display: flex;
+        flex-direction: column;
+    }
+    .image-form-container{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .image-container{
+        
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-container{
+        margin-top: 10px;
+        
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  @media only screen 
+and (min-device-width: 481px)
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .product-edit{
+               
+        display: flex;
+        flex-direction: column;
+    }
+    .image-form-container{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .image-container{
+        
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-container{
+        margin-top: 10px;
+        
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  @media only screen 
+and (min-device-width: 769px)
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .product-edit{
+               
+        display: flex;
+        flex-direction: column;
+    }
+    .image-form-container{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .image-container{
+        
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-container{
+        margin-top: 10px;
+        
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  } */
