@@ -48,8 +48,9 @@ const ProductDetail = (props) => {
   );
   return (
     <Layout user={props.user}>
-      <div className="product-detail h-full w-screen flex flex-col place-items-center p-4 md:flex-row">
-        <div className="mx-4 rounded-xl shadow-2xl w-1/3 overflow-hidden">
+      <div className="product-detail h-screen w-screen p-4">
+        <div className="flex mt-36 flex-col place-items-center md:flex-row">
+        <div className="mx-4 rounded-xl shadow-2xl w-3/5 overflow-hidden flex justify-center">
           <img
             className="product-detail-image w-48 md:w-96"
             src={product.imgURL}
@@ -63,6 +64,7 @@ const ProductDetail = (props) => {
             {product.description}
           </div>
           {user ? authenticatedOptions : ""}
+        </div>
         </div>
       </div>
     </Layout>
