@@ -49,26 +49,26 @@
 
 
   .logo:hover{
-    opacity: 70%;
+    opacity: 85%;
   }
   .button:hover{
-    opacity: 70%;
+    opacity: 85%;
   }
 
   .liam:hover{
-    opacity: 60%;
+    opacity: 85%;
   }
   .miguel:hover{
-    opacity: 60%;
+    opacity: 85%;
   }
   .ray:hover{
-    opacity: 60%;
+    opacity: 85%;
   }
   .span{
     color: #577E53;
   }
   .ga:hover{
-    opacity: 60%;
+    opacity: 85%;
   }
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
