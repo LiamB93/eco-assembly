@@ -50,9 +50,9 @@ const ProductDetail = (props) => {
         />
         <div className="detail">
           <div className="name">{product.name}</div>
-          <div className="price text-five font-bold text-2xl">{`$${product.price}`}</div>
+          <div className="price text-five font-bold text-md lg:text-2xl">{`$${product.price}`}</div>
           <div className="description">{product.description}</div>
-        {user ? authenticatedOptions : ""}
+          {user ? authenticatedOptions : ""}
         </div>
       </div>
     </Layout>

@@ -59,9 +59,9 @@ function Products(props) {
   return (
     <div className="w-screen">
       <Layout user={props.user}>
-        <div className="flex justify-center relative min-w-full max-h-96">
+        <div className="flex justify-center relative min-w-full h-80">
           <img src={headerImage} alt={title} className="object-cover w-full" />
-          <div className="absolute top-1/2 bg-gray-800 bg-opacity-50">
+          <div className="absolute top-1/3 bg-gray-800 bg-opacity-50">
             <h2 className="font-bold text-2xl text-gray-100 p-8">{title}</h2>
           </div>
         </div>
