@@ -93,9 +93,12 @@
 }
 
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) 
+and (max-device-width: 320px)
+  and (min-device-width: 375px) 
+  and (max-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
         { 
             
             .product-detail{
@@ -177,28 +180,37 @@
                 margin-top: 15%;
             }
         }
-        @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        @media only screen 
+and (min-device-width: 320px)
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
             .ipad-portrait { color: red; } 
             .product-detail{
                 display: flex;
                 flex-direction: column;
                 
+                width: 100%;
                 
             }
 
             .detail{
+                display: flex;
+                flex-direction: column;
                 margin-left: auto;
                 margin-right: auto;
+                
+                width: 100%;
                 
             }
             
             
             .name{
                 display: flex;
-                font-size: 28px;
+                font-size: 14px;
                 letter-spacing: 1px;
                 margin-top: 40px;
-                
+                width: 100%;
                 color: #2F4858;
                 font-weight: bolder;
                 
@@ -206,7 +218,7 @@
             
             .price{
                 display: flex;
-                font-size: 18px;
+                font-size: 12px;
                 color: #789974;
                 font-weight: bold;
             }
@@ -214,21 +226,26 @@
             .description{
                 display: flex;
                 
-                font-size: 16px;
+                font-size: 11px;
                 padding: 10px;
                 letter-spacing: .9px;
                 color: #789974;
                 font-weight: normal;
                 
+                width: 100%;
+                
+                
                 
             
             }
+
             
             .product-detail-image{
-                width: 400px;
+                width: 100%;
                 padding: 0 40px;
                 margin-left: auto;
                 margin-right: auto;
+                
                 
             }
             
@@ -257,12 +274,12 @@
               
             }
             .edit-button p {
-                margin-top: 4%;
+                margin-top: 15%;
             }/* your css rules for ipad portrait */
           }
           @media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) 
+and (min-device-width: 481px)
+  and (max-device-width: 768px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait){
     .product-detail{
@@ -276,6 +293,93 @@
         margin-left: auto;
         margin-right: auto;
         
+    }
+    
+    
+    .name{
+        display: flex;
+        font-size: 38px;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        
+        color: #2F4858;
+        font-weight: bolder;
+        
+    }
+    
+    .price{
+        display: flex;
+        font-size: 28px;
+        color: #789974;
+        font-weight: bold;
+    }
+    
+    .description{
+        display: flex;
+        
+        font-size: 24px;
+        padding: 10px;
+        letter-spacing: .9px;
+        color: #789974;
+        font-weight: normal;
+        
+        
+    
+    }
+    
+    .product-detail-image{
+        width: 400px;
+        padding: 0 40px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .button-container{
+        
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+        
+        
+    }
+    
+    .edit-button {
+        font-size: 10px;
+       
+        height: 40px;
+        width: 40%;
+        
+    }
+    .delete-button {
+        font-size: 10px;
+        
+        height: 40px;
+        width: 40%;
+      
+    }
+    .edit-button p {
+        margin-top: 4%;
+    }
+  }
+
+  @media only screen 
+and (min-device-width: 769px)
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .product-detail{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .detail{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
     
     
