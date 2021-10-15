@@ -34,7 +34,7 @@ function Header({ user }) {
         </div>
       </div>
       <div className="bottom-header">
-        <Link to="/" className="logo"><img src={logo} alt="logo" /></Link>
+        <Link to="/" className="logo"><img className="hover:opacity-95" src={logo} alt="logo" /></Link>
       </div>
       <Nav />
 
