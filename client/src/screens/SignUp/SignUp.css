@@ -1,0 +1,95 @@
+
+@media only screen 
+and (min-device-width: 375px)
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .sign-up{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .create-text{
+        font-size: 14px ;
+    }
+
+    .username{
+        font-size: 10px;
+        margin-left: auto;
+          margin-right: auto;
+    }
+    .signup{
+        font-size: 10px;
+    }
+    ::placeholder {
+        font-size: 10px;
+      }
+      .enteruser{
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+  }
+
+  @media only screen 
+and (min-device-width: 481px)
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .sign-up{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .create-text{
+        font-size: 14px ;
+    }
+
+    .username{
+        font-size: 10px;
+        margin-left: auto;
+          margin-right: auto;
+    }
+    .signup{
+        font-size: 10px;
+    }
+    ::placeholder {
+        font-size: 10px;
+      }
+      .enteruser{
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+  }
+  @media only screen 
+and (min-device-width: 769px)
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .sign-up{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .create-text{
+        font-size: 28px ;
+    }
+
+    .username{
+        font-size: 20px;
+        margin-left: auto;
+          margin-right: auto;
+    }
+    .signup{
+        font-size: 20px;
+    }
+    ::placeholder {
+        font-size: 20px;
+      }
+      .enteruser{
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+  }
