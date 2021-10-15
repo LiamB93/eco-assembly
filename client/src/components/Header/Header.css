@@ -34,7 +34,7 @@
 }
 
 .logo:hover{
-  opacity: 70%;
+  opacity: .5%;
 }
 .promo{
   padding-right: 550px;
@@ -51,109 +51,30 @@ and (min-device-width: 375px)
   and (orientation: portrait)
 {
 
-
-  .top-header{
-    display: flex;
-    width: 100%;
-    position: relative;
-    align-items: center;
-  }
-
-  .header-links{
-    display: flex;
-    
-    justify-content: flex-end;
-    font-size: 8px;
+.box{
+  display: none;
+}
   
-  
-  }
-  .promo{
-    
-    display: flex;
-    position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 900px;
-  font-size: 4px;
-  padding-left: 15px;
-  
-    
-  }
-  .promo br{
-    display: none;
-  }
-  
-  .ten-percent {
-    display: flex;
-    font-size: 6px;
-   
-
-    
-  }
-  .code{
-    display: flex;
-    
-    font-size: 4px;
-  
-  }
-  .box{
-
-  }
   
 }
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+@media only screen 
+and (min-device-width: 375px)
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
   .ipad-portrait { color: red; }
-  
-  .top-header{
-    display: flex;
-    width: 100%;
-    position: relative;
-    align-items: center;
-  }
-
-  .header-links{
-    display: flex;
-    
-    justify-content: flex-end;
-    font-size: 8px;
-  
-  
-  }
-  .promo{
-    
-    display: flex;
-    position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 900px;
-  font-size: 4px;
-  padding-left: 15px;
-  
-    
-  }
-  .promo br{
+  .box{
     display: none;
   }
   
-  .ten-percent {
-    display: flex;
-    font-size: 10px;
-   
-
-    
-  }
-  .code{
-    display: flex;
-    
-    font-size: 8px;
-  
-  }
-  .box{
-
-  }
 }
+@media only screen 
+and (min-device-width: 481px)
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .box{
+      display: none;
+    }
+  }
