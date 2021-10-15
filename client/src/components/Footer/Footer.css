@@ -68,7 +68,7 @@
     color: #577E53;
   }
   .ga:hover{
-    opacity: 85%;
+    opacity: 95%;
   }
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
