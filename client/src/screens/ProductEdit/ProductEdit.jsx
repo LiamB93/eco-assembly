@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useParams, Redirect } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
 import { getProduct, updateProduct } from "../../services/products";
-import './ProductEdit.css'
 
 const ProductEdit = (props) => {
   const [product, setProduct] = useState({
@@ -45,15 +44,15 @@ const ProductEdit = (props) => {
     <Layout user={props.user}>
       <div className="product-edit flex flex-col h-screen w-screen mt-12">
         <h1 className="text-4xl italic font-bold pb-4">Edit Product</h1>
-        <div className="image-form-container flex justify-center h-9/12 w-full pt-4">
-          <div className="image-container w-5/12 mx-4 border rounded-xl overflow-hidden shadow-2xl flex flex-col place-items-center justify-center">
+        <div className="image-form-container flex flex-col md:flex-row place-items-center justify-center md:justify-center md:h-9/12 w-full pt-4">
+          <div className="image-container mx-16 md:w-5/12 md:mx-4 border rounded-xl overflow-hidden shadow-2xl flex flex-col place-items-center justify-center">
             <img
               className="edit-product-image"
               src={product.imgURL}
               alt={product.name}
             />
           </div>
-          <div className="form-container w-5/12 px-12 py-2 bg-six rounded-lg flex flex-col place-items-center justify-center">
+          <div className="form-container mx-4 h-full my-4 md:w-5/12 px-2 md:px-12 md:py-2 bg-six rounded-lg flex flex-col place-items-center justify-center">
             <form className="edit-form" onSubmit={handleSubmit}>
               <div className="flex flex-col place-items-start py-1">
                 <label className="font-semibold text-white">Product Name</label>
@@ -84,7 +83,7 @@ const ProductEdit = (props) => {
                 </label>
                 <textarea
                   className="textarea-description border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
-                  rows={10}
+                  rows={5}
                   cols={78}
                   placeholder="Description"
                   value={product.description}
