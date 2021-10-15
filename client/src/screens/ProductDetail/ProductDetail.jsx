@@ -33,7 +33,7 @@ const ProductDetail = (props) => {
   const authenticatedOptions = (
     <div className="button-container">
       <Link className="edit-button" to={`/products/${product._id}/edit`}>
-        Edit
+        <p>Edit</p>
       </Link>
       <button className="delete-button" onClick={handleDelete}>
         Delete
