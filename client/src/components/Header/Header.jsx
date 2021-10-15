@@ -20,11 +20,13 @@ const unauthenticatedOptions = (
 
 function Header({ user }) {
   return (
-    <nav>
+    <div>
       <div className="top-header">
         <div className="promo">
-          <p className="ten-percent">SAVE 10% SITEWIDE + PLANT 5 TREES WITH EACH PURCHASE</p>
-          <p>USE CODE: PLANTSTREES<br />Free Shipping $50+ | Free Returns | Best Price Guaranteed</p>
+          <div className = "box">
+            <p className="ten-percent">SAVE 10% SITEWIDE + PLANT 5 TREES WITH EACH PURCHASE</p>
+            <p className="code">USE CODE: PLANTSTREES<br />Free Shipping $50+ | Free Returns | Best Price Guaranteed</p>
+          </div>
         </div>
         <div className="header-links">
           {user && <div className="link welcome">Welcome, {user.username}</div>}
@@ -37,7 +39,7 @@ function Header({ user }) {
       <Nav />
 
 
-    </nav>
+    </div>
   )
 }
 
