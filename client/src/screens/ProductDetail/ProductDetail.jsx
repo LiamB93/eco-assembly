@@ -31,27 +31,37 @@ const ProductDetail = (props) => {
   };
 
   const authenticatedOptions = (
-    <div className="button-container">
-      <Link className="edit-button" to={`/products/${product._id}/edit`}>
+    <div className="button-container flex justify-evenly w-full md:w-2/3">
+      <Link
+        className="edit-button border bg-six mt-8 font-bold text-lg text-gray-100 px-8 py-1 rounded-lg hover:bg-gray-100 hover:text-six"
+        to={`/products/${product._id}/edit`}
+      >
         <p>Edit</p>
       </Link>
-      <button className="delete-button" onClick={handleDelete}>
+      <button
+        className="delete-button border bg-six mt-8 font-bold text-lg text-gray-100 px-8 py-1 rounded-lg hover:bg-gray-100 hover:text-six"
+        onClick={handleDelete}
+      >
         Delete
       </button>
     </div>
   );
   return (
     <Layout user={props.user}>
-      <div className="product-detail h-full">
-        <img
-          className="product-detail-image"
-          src={product.imgURL}
-          alt={product.name}
-        />
-        <div className="detail">
-          <div className="name">{product.name}</div>
+      <div className="product-detail h-full w-screen flex flex-col place-items-center p-4 md:flex-row">
+        <div className="mx-4 rounded-xl shadow-2xl w-1/3 overflow-hidden">
+          <img
+            className="product-detail-image w-48 md:w-96"
+            src={product.imgURL}
+            alt={product.name}
+          />
+        </div>
+        <div className="detail md:w-2/3 md:flex md:flex-col md:justify-center md:place-items-center">
+          <div className="name text-xl font-bold text-six">{product.name}</div>
           <div className="price text-five font-bold text-md lg:text-2xl">{`$${product.price}`}</div>
-          <div className="description">{product.description}</div>
+          <div className="description text-three text-lg font-semibold">
+            {product.description}
+          </div>
           {user ? authenticatedOptions : ""}
         </div>
       </div>
