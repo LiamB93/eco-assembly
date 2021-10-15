@@ -4,13 +4,12 @@ import "./Layout.css";
 
 function Layout(props) {
   return (
-    <div className="layout w-screen bg-gray-100">
+    <div className="layout bg-gray-100">
       <Header user={props.user} />
       <div className="layout-children">
         {props.children}
       </div>
       <Footer />
-
     </div>
   )
 }
