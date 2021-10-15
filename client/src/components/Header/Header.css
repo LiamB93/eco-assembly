@@ -42,3 +42,23 @@
 .ten-percent{
   color: #57BE56;
 }
+
+@media only screen
+and (device-width: 375px)
+and (device-height: 812px)
+and (-webkit-device-pixel-ratio: 3)
+{
+
+  .top-header{
+    display: ;
+  }
+
+  .header-links{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 8px;
+  }
+  .promo{
+    font-size: 6px;
+  }
+}
