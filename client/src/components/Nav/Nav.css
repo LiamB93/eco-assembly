@@ -7,6 +7,7 @@
   background-color: white;
   box-shadow: 1px 1px 2px .3px #CECECE;
   height: 50px;
+  overflow: hidden;
   
 
 }
@@ -36,8 +37,18 @@
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
 
   .links{
-    font-size: 10px;
-    padding-right: 40px;
+    display: flex;
+    font-size: 8px;
+    padding-right: 110px;
+    align-content: center;
+    
+    }
+    .products-nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
     }
    
 }
