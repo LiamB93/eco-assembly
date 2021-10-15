@@ -70,3 +70,22 @@
   .ga:hover{
     opacity: 60%;
   }
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+    .footer{
+      font-size: 10px;
+      padding-right: 5px;
+    }
+  }
+  @media only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 3){
+    .footer{
+      font-size: 10px;
+      line-height: 10pt;
+    }
+    .newsletter{
+      display: flex;
+      width: 120px;
+
+      
+    }
+  }

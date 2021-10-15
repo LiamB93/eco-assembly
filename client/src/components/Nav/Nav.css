@@ -32,3 +32,12 @@
 .home-life:hover{
   text-decoration: underline;
 }
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+
+  .links{
+    font-size: 10px;
+    padding-right: 40px;
+    }
+   
+}
