@@ -1,4 +1,4 @@
-.product-detail {
+/* .product-detail {
   display: flex;
   padding: 100px;
   padding-top: 80px;
@@ -26,7 +26,7 @@
   /* font-size: 28px; */
   /* color: #789974; */
   /* font-weight: bold; */
-}
+/* }
 
 .description {
   padding: 10px;
@@ -109,7 +109,7 @@
                 font-size: 13px;
                 color: #789974;
                 font-weight: bold; */
-  }
+  /* }
 
   .description {
     display: flex;
@@ -139,15 +139,14 @@
   }
   .delete-button {
     font-size: 10px;
-
     height: 40px;
     width: 40%;
   }
   .edit-button p {
     margin-top: 15%;
   }
-}
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+}  */
+/* @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
   .ipad-portrait {
     color: red;
   }
@@ -214,9 +213,9 @@
   }
   .edit-button p {
     margin-top: 4%;
-  } /* your css rules for ipad portrait */
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  } your css rules for ipad portrait */
+/* } */
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .product-detail {
     display: flex;
     flex-direction: column;
@@ -281,4 +280,4 @@
   .edit-button p {
     margin-top: 4%;
   }
-}
+} */

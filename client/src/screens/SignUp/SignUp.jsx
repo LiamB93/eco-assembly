@@ -68,7 +68,7 @@ const SignUp = (props) => {
     <Layout>
       <div className="sign-up h-screen w-screen flex flex-col place-items-center px-2">
         <h1 className="create-text text-4xl italic font-bold pt-16">Create Your Account</h1>
-        <div className="form-container w-full  md:w-1/3 h-3/5 border border-gray-200 bg-six rounded-xl shadow-2xl my-12">
+        <div className="form-container w-full md:w-1/3 h-3/5 border border-gray-200 bg-six rounded-xl shadow-2xl my-12">
           <form
             onSubmit={onSignUp}
             className="w-full h-full flex flex-col justify-center items-center"
