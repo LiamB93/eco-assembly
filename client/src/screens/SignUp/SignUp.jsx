@@ -2,6 +2,7 @@ import { useState } from "react";
 import { signUp } from "../../services/users";
 import { useHistory } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
+import './SignUp.css'
 
 const SignUp = (props) => {
   const history = useHistory();
@@ -53,7 +54,7 @@ const SignUp = (props) => {
       return (
         <button
           type="submit"
-          className="border bg-gray-100 mt-8 font-bold text-lg text-six px-8 py-1 rounded-lg hover:bg-six hover:text-white"
+          className="signup border bg-gray-100 mt-8 font-bold text-lg text-six px-8 py-1 rounded-lg hover:bg-six hover:text-white"
         >
           Sign Up
         </button>
@@ -65,17 +66,17 @@ const SignUp = (props) => {
 
   return (
     <Layout>
-      <div className="h-screen w-screen flex flex-col place-items-center">
-        <h1 className="text-4xl italic font-bold pt-16">Create Your Account</h1>
+      <div className="sign-up h-screen w-screen flex flex-col place-items-center">
+        <h1 className="create-text text-4xl italic font-bold pt-16">Create Your Account</h1>
         <div className="form-container w-1/3 h-3/5 border border-gray-200 bg-six rounded-xl shadow-2xl my-12">
           <form
             onSubmit={onSignUp}
             className="w-full h-full flex flex-col justify-center items-center"
           >
             <div className="flex flex-col place-items-start w-full px-8 py-2">
-              <label className="font-semibold text-white">Username</label>
+              <label className="username font-semibold text-white">Username</label>
               <input
-                className="border py-2 px-4 rounded-lg w-full mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
+                className="enteruser border py-2 px-4 rounded-lg w-full mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 autoFocus
                 required
                 type="text"
@@ -86,9 +87,9 @@ const SignUp = (props) => {
               />
             </div>
             <div className="flex flex-col place-items-start py-2 w-full px-8">
-              <label className="font-semibold text-white">Email address</label>
+              <label className="username font-semibold text-white">Email address</label>
               <input
-                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
+                className="enteruser border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 required
                 type="email"
                 name="email"
@@ -98,9 +99,9 @@ const SignUp = (props) => {
               />
             </div>
             <div className="flex flex-col place-items-start py-2 w-full px-8">
-              <label className="font-semibold text-white">Password</label>
+              <label className="username font-semibold text-white">Password</label>
               <input
-                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder placeholder-gray-400 border-gray-400 focus: outline-none"
+                className="enteruser border py-2 px-4 w-full rounded-lg mt-1 placeholder placeholder-gray-400 border-gray-400 focus: outline-none"
                 required
                 name="password"
                 value={password}
@@ -110,11 +111,11 @@ const SignUp = (props) => {
               />
             </div>
             <div className="flex flex-col place-items-start py-2 w-full px-8">
-              <label className="font-semibold text-white">
+              <label className="username font-semibold text-white">
                 Password Confirmation
               </label>
               <input
-                className="border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
+                className="enteruser border py-2 px-4 w-full rounded-lg mt-1 placeholder-gray-400 border-gray-400 focus: outline-none"
                 required
                 name="passwordConfirmation"
                 value={passwordConfirmation}
