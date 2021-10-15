@@ -50,7 +50,7 @@
 .quote1{
     font-weight: bold;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .image-link{
@@ -133,96 +133,992 @@
     -ms-overflow-style: none; /* For Internet Explorer and Edge */
   }
 
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    /* Styles */
-    }
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-        /* Styles */
-        }
+  
+    
 
-        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-            /* Styles */
-            }
-            
-            @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-            /* Styles */
-            }
+        
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* iPhone 5 ----------- */
                 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* iPhone 6, 7, 8 ----------- */
                 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* iPhone 6+, 7+, 8+ ----------- */
-                @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+                @media only screen and (min-device-width: 414px) and (max-device-height: 7310px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
-                @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+                @media only screen and (min-device-width: 414px) and (max-device-height: 7310px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* iPhone X ----------- */
-                @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+                @media only screen and (min-device-width: 375px) and (max-device-height: 810px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
-                @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+                @media only screen and (min-device-width: 375px) and (max-device-height: 810px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* iPhone XS Max, XR ----------- */
-                @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+                @media only screen and (min-device-width: 414px) and (max-device-height: 8910px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 300px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 500px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
-                @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+                @media only screen and (min-device-width: 414px) and (max-device-height: 8910px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* Samsung Galaxy S3 ----------- */
                 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* Samsung Galaxy S4 ----------- */
                 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 /* Samsung Galaxy S5 ----------- */
                 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
+                }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
                 }
                 
                 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
                 /* Styles */
+                .toothbrush{
+    
+                    height: 100px;
+                    width: 500px;
+                    object-fit: cover;
                 }
+                .inner-image-quote{
+        
+                    width: 300px;
+                    height: 70px;
+                    }
+                    .quote{
+    
+                        font-weight: bold;
+                        font-size: 10px;
+                        color: white;
+                    }
+                    .quote1{
+                        font-weight: bold;
+                        color: white;
+                        font-size: 10px;
+                    }
+                    
+                    .image-link{
+                        
+                        width: 100px;
+                        height: 18px;
+                    }
+                    
+                    .explore{
+                        font-size: 10px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    
+                    
+                    .people{
+                        font-size: 28px;
+                    }
+                    
+                    .mission-statement{
+                        font-size: 14px;
+                        
+                        width: 300px;
+                    }
+                }
+
+                
+                @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                    .toothbrush{
+    
+                        height: 200px;
+                        width: 500px;
+                        object-fit: cover;
+                    }
+                    .inner-image-quote{
+            
+                        width: 300px;
+                        height: 100px;
+                        }
+                        .quote{
+        
+                            font-weight: bold;
+                            font-size: 11px;
+                            color: white;
+                        }
+                        .quote1{
+                            font-weight: bold;
+                            color: white;
+                            font-size: 11px;
+                        }
+                        
+                        .image-link{
+                            
+                            width: 100px;
+                            height: 18px;
+                        }
+                        
+                        .explore{
+                            font-size: 10px;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                        
+                        
+                        .people{
+                            font-size: 28px;
+                        }
+                        
+                        .mission-statement{
+                            font-size: 14px;
+                            
+                            width: 300px;
+                        }
+                   }
+                   @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+                    .toothbrush{
+    
+                        height: 200px;
+                        width: 550px;
+                        object-fit: cover;
+                    }
+                    .inner-image-quote{
+            
+                        width: 350px;
+                        height: 120px;
+                        }
+                        .quote{
+        
+                            font-weight: bold;
+                            font-size: 12px;
+                            color: white;
+                        }
+                        .quote1{
+                            font-weight: bold;
+                            color: white;
+                            font-size: 12px;
+                        }
+                        
+                        .image-link{
+                            
+                            width: 100px;
+                            height: 18px;
+                        }
+                        
+                        .explore{
+                            font-size: 10px;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                        
+                        
+                        .people{
+                            font-size: 28px;
+                        }
+                        
+                        .mission-statement{
+                            font-size: 14px;
+                            
+                            width: 300px;
+                        }
+                   }
