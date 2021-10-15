@@ -65,7 +65,7 @@ function Products(props) {
             <h2 className="font-bold text-2xl text-gray-100 p-8">{title}</h2>
           </div>
         </div>
-        <div className="products h-full w-full">
+        <div className="products h-full w-full flex flex-wrap">
           {products
             .filter((product) => product.category === category)
             .map((product, index) => {

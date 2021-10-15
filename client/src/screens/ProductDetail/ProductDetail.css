@@ -26,9 +26,9 @@
 
 .price{
     display: flex;
-    font-size: 28px;
-    color: #789974;
-    font-weight: bold;
+    /* font-size: 28px; */
+    /* color: #789974; */
+    /* font-weight: bold; */
 }
 
 .description{
