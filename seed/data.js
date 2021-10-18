@@ -347,21 +347,21 @@ const insertData = async () => {
       {
         name: "Basic Hemp Tank",
         imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/hemptique-basic-hemp-tank-front-gray_wtxxh7.jpg",
-        price: "$24.99",
+        price: "24.99",
         description: "You'll rock any athletic outfit with this organic cotton and hemp knit fabric. It's not only eco-friendly, but antimicrobial too, so it stays fresh throughout the entire day's activities.",
         category: "clothing"
       },
       {
         name: "Tortuga Kids Recycled Sunglasses",
         imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/04-parafina-tortuga-red-1-1_tbc7hf.jpg",
-        price: "$45.00",
+        price: "45.00",
         description: "Protect your little one's eyes while keeping them looking stylish with the Tortuga Kids Recycled Sunglasses by Parafina! These ultra-light and flexible glasses are made with 100% recycled rubber",
         category: "clothing"
       },
       {
         name: "Hemp Panama Hat",
         imgURL: "https://res.cloudinary.com/desk8znsq/image/upload/v1634068950/conner-hats-hemp-sun-shade-panama-hat-camel-1_vk1si0.jpg",
-        price: "$49.00",
+        price: "49.00",
         description: "Conner Hats created this perfect breathable and durable hat made out of hemp. This hat will protect you from the sun and be your favorite travel accessory!",
         category: "clothing"
       },
