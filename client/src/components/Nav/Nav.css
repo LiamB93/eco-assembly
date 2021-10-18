@@ -43,6 +43,7 @@
     align-content: center;
     
     
+    
     }
     .products-nav{
       display: flex;
@@ -51,5 +52,9 @@
       
 
     }
+    .home-life{
+      width: 80px;
+    }
+    
     
 }
