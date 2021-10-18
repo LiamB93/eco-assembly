@@ -77,8 +77,7 @@
     .footer{
       font-size: 10px;
       padding: 25px;
-      border-width: 2px;
-      border-color: red;
+      
     }
   }
   @media only screen 
