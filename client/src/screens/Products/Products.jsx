@@ -121,6 +121,7 @@ function Products(props) {
           onSubmit={handleSubmit}
           handleSearch={handleSearch}
           setInput={setInput}
+          title={title}
         />
         <Sort onSubmit={handleSubmit} handleSort={handleSort} />
         <div className="bg-white">
