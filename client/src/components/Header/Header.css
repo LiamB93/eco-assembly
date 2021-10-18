@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
 
 .top-header {
   display: flex;
   justify-content: flex-end;
-  background-color: #064A75;
+  background-color: #064a75;
   font-family: "Rowdies";
   height: 70px;
   color: white;
 }
 
-.bottom-header{
+.bottom-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #DCF9D7;
+  background-color: #dcf9d7;
   height: 110px;
   font-family: "Rowdies";
   align-content: baseline;
-
 }
 
-.header-links{
+.header-links {
   display: flex;
   align-content: space-between;
   margin-top: 20px;
@@ -29,63 +27,45 @@
   gap: 20px;
 }
 
-
-.link:hover{
+.link:hover {
   text-decoration: underline;
 }
 
-.header-logo:hover{
+.header-logo:hover {
   transform: scale(1.2);
 }
 /* .logo:hover{
 } */
-.promo{
+.promo {
   padding-right: 550px;
-
 }
-.ten-percent{
-  color: #57BE56;
-}
-
-@media only screen 
-and (min-device-width: 375px)
-  and (max-device-width: 480px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait)
-{
-
-.box{
-  display: none;
-}
-.header-logo{
-  height: 130px;
-}
-.link{
-  width: 50px;
-  font-size: 12px;
+.ten-percent {
+  color: #57be56;
 }
 
-  
-  
-}
-
-@media only screen 
-and (min-device-width: 375px)
-  and (max-device-width: 480px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
-  .ipad-portrait { color: red; }
-  .box{
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .box {
     display: none;
   }
-  
-}
-@media only screen 
-and (min-device-width: 481px)
-  and (max-device-width: 768px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait){
-    .box{
-      display: none;
-    }
+  .header-logo {
+    height: 130px;
   }
+  .link {
+    width: 50px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .ipad-portrait {
+    color: red;
+  }
+  .box {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .box {
+    display: none;
+  }
+}
