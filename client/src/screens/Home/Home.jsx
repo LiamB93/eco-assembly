@@ -114,7 +114,7 @@ function Home(props) {
           <div className = 'inner-image-quote'>
               <div className = "quote"> Do your part to help save the environment</div>
               <p className = "quote1"> Grab Your Pack of Eco Friendly Tooth Brush Today!</p>
-              <Link className = 'image-link' to = '/products/homelife/6169e62330c84a59310b32e4'>
+              <Link className = 'image-link' to = '/products/homelife/616d80fcccfd0209809f10da'>
                <div className = "explore">Explore Options</div>
               </Link>
           </div>
