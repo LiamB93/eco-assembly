@@ -29,10 +29,14 @@
   gap: 20px;
 }
 
+
 .link:hover{
   text-decoration: underline;
 }
 
+.header-logo:hover{
+  transform: scale(1.2);
+}
 /* .logo:hover{
 } */
 .promo{
@@ -53,6 +57,14 @@ and (min-device-width: 375px)
 .box{
   display: none;
 }
+.header-logo{
+  height: 130px;
+}
+.link{
+  width: 50px;
+  font-size: 12px;
+}
+
   
   
 }
