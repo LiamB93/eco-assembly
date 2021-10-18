@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Nav.css"
 
+
 function Nav() {
   return (
     <div className="products-nav">
@@ -9,6 +10,7 @@ function Nav() {
         <NavLink className="clothing" to="/products/clothing">Clothing</NavLink>{" "}
         <NavLink className="outdoor" to="/products/outdoor">Outdoor</NavLink>{" "}
         <NavLink className="zero-waste" to="/products/zerowaste">Zero Waste</NavLink>{" "}
+      
       </div>
 
     </div>
