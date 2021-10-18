@@ -35,12 +35,12 @@ const ProductCreate = (props) => {
     <Layout user={props.user}>
       <div className="h-screen w-screen flex flex-col place-items-center px-4">
         <h1 className="text-4xl italic font-bold pt-4">Create a Product</h1>
-        <div className="form-container w-full h-full my-4 md:w-5/12 px- md:px-12 md:py-2 bg-six rounded-lg flex flex-col place-items-center justify-center">
+        <div className="form-container w-full h-auto my-4 md:w-5/12 md:py-2 bg-six rounded-lg flex flex-col place-items-center justify-center">
           <form
            className="w-full h-full"
             onSubmit={handleSubmit}
           >
-            <div className="flex flex-col justify-center place-items-center">
+            <div className="flex flex-col w-full justify-center place-items-center">
             <div className="flex flex-col place-items-start w-full px-2 md:w-4/5 md:px-8 py-2">
               <label className="font-semibold text-white">Product Name</label>
               <input
@@ -104,7 +104,7 @@ const ProductCreate = (props) => {
             </div>
             <button
               type="submit"
-              className="submit-button border bg-gray-100 mt-8 font-bold text-lg text-six px-8 py-1 rounded-lg hover:bg-six hover:text-white"
+              className="submit-button border bg-gray-100 my-8 font-bold text-lg text-six px-8 py-1 rounded-lg hover:bg-six hover:text-white"
             >
               Submit
             </button>
