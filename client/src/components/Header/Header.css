@@ -29,11 +29,13 @@
   gap: 20px;
 }
 
+
 .link:hover{
   text-decoration: underline;
 }
 
-.logo:hover{
+.header-logo:hover{
+  transform: scale(1.2);
 }
 .promo{
   padding-right: 550px;
@@ -53,6 +55,7 @@ and (min-device-width: 375px)
 .box{
   display: none;
 }
+
   
   
 }

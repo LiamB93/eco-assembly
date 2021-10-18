@@ -23,7 +23,7 @@ function Header({ user }) {
     <div>
       <div className="top-header">
         <div className="promo">
-          <div className = "box">
+          <div className="box">
             <p className="ten-percent">SAVE 10% SITEWIDE + PLANT 5 TREES WITH EACH PURCHASE</p>
             <p className="code">USE CODE: PLANTSTREES<br />Free Shipping $50+ | Free Returns | Best Price Guaranteed</p>
           </div>
@@ -34,7 +34,7 @@ function Header({ user }) {
         </div>
       </div>
       <div className="bottom-header">
-        <Link to="/" className="logo"><img className="hover:opacity-95" src={logo} alt="logo" /></Link>
+        <Link to="/" className="header-logo"><img src={logo} alt="header-logo" /></Link>
       </div>
       <Nav />
 
