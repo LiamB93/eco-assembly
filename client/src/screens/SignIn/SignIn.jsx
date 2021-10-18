@@ -63,7 +63,7 @@ const SignIn = (props) => {
   return (
     <Layout>
       <div className="h-screen w-screen px-2 flex flex-col place-items-center">
-          <h3 className="text-4xl italic font-bold pt-16">Sign In</h3>
+        <h3 className="text-4xl italic font-bold pt-16">Sign In</h3>
         <div className="form-container w-full md:w-1/3 h-2/5 flex flex-col justify-center border border-gray-200 bg-six rounded-xl shadow-2xl my-12">
           <form onSubmit={onSignIn}>
             <div className="flex flex-col place-items-start w-full px-8 py-2">

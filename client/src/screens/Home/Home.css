@@ -1,292 +1,244 @@
-.home{
-    display: flex;
-    flex-direction: column;
-    margin-top: 80px;
-    
-   
-
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
 }
 
-.home-image{
-    display: flex;
-    justify-content: center;
-    position: relative;
-   
+.home-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
-.toothbrush-div{
-    position: relative;
+.toothbrush-div {
+  position: relative;
 }
 
-.toothbrush{
-    
-    height: 300px;
-    width: 800px;
-    object-fit: cover;
+.toothbrush {
+  height: 300px;
+  width: 800px;
+  object-fit: cover;
 }
 
-.inner-image-quote{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    
-    background: rgb(72, 72, 72,.30);
+.inner-image-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+
+  background: rgb(72, 72, 72, 0.3);
   width: 600px;
   height: 150px;
-  
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.quote{
-    
-    font-weight: bold;
-    font-size: 28px;
-    color: white;
+.quote {
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
 }
 
-.quote1{
+.quote1 {
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+}
+
+.image-link {
+  background: #007983;
+  color: white;
+  width: 200px;
+  height: 25px;
+  border-radius: 50px;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.explore {
+  font-weight: bold;
+  text-align: center;
+}
+
+.mission {
+  margin-top: 50px;
+}
+
+.people {
+  font-size: 38px;
+  color: #2f4858;
+  font-weight: bolder;
+}
+
+.mission-statement {
+  font-size: 24px;
+  color: #789974;
+  font-weight: bold;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer-favorites {
+  margin-top: 40px;
+}
+
+.customer {
+  font-size: 18px;
+  color: #2f4858;
+  font-weight: bold;
+}
+
+.placeholder-products {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.place-holder-img {
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.carousel {
+  display: inline-flex;
+  overflow-x: hidden;
+  /*  scroll snap is a great feature which will center the image on snap on touch screen devices  */
+  scroll-snap-type: x mandatory;
+  /* all below will hide the scrollbar on all browsers.    */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .toothbrush {
+    height: 100px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .inner-image-quote {
+    width: 300px;
+    height: 70px;
+  }
+  .quote {
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+  }
+  .quote1 {
     font-weight: bold;
     color: white;
     font-size: 10px;
-}
+  }
 
-.image-link{
-    background: #007983;
-    color: white;
-    width: 200px;
-    height: 25px;
-    border-radius: 50px;
-    align-self: center;
-    margin-top: 15px;
-    
-    
-}
+  .image-link {
+    width: 100px;
+    height: 18px;
+  }
 
-.explore{
-    
+  .explore {
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
-}
+  }
 
-.mission{
-    margin-top: 50px;
-    
-    
+  .people {
+    font-size: 28px;
+  }
 
-    
-    
-}
+  .mission-statement {
+    font-size: 14px;
 
-.people{
-    font-size: 38px;
-    color: #2F4858;
-    font-weight: bolder;
-}
-
-.mission-statement{
-    font-size: 24px;
-    color: #789974;
-    font-weight: bold;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-    
-}
-
-.customer-favorites{
-    margin-top: 40px;
-    
-}
-
-.customer{
-    font-size: 18px;
-    color: #2F4858;
-    font-weight: bold;
-}
-
-.placeholder-products{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.place-holder-img{
     width: 300px;
-    height: 350px;
-    border-radius: 20px;
-    margin: 10px;
+  }
 }
-.carousel {
-    display: inline-flex;
-    overflow-x: hidden;
-  /*  scroll snap is a great feature which will center the image on snap on touch screen devices  */
-    scroll-snap-type: x mandatory;
-  /* all below will hide the scrollbar on all browsers.    */
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .toothbrush {
+    height: 100px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .inner-image-quote {
+    width: 300px;
+    height: 70px;
+  }
+  .quote {
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+  }
+  .quote1 {
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
   }
 
-  @media only screen 
-and (min-device-width: 375px)
-  and (max-device-width: 480px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
-        .toothbrush{
-    
-            height: 100px;
-            width: 500px;
-            object-fit: cover;
-        }
-        .inner-image-quote{
-
-            width: 300px;
-            height: 70px;
-            }
-            .quote{
-
-                font-weight: bold;
-                font-size: 10px;
-                color: white;
-            }
-            .quote1{
-                font-weight: bold;
-                color: white;
-                font-size: 10px;
-            }
-            
-            .image-link{
-                
-                width: 100px;
-                height: 18px;
-            }
-            
-            .explore{
-                font-size: 10px;
-                font-weight: bold;
-                text-align: center;
-            }
-            
-            
-            .people{
-                font-size: 28px;
-            }
-            
-            .mission-statement{
-                font-size: 14px;
-                
-                width: 300px;
-            }
-    }
-  
-    @media only screen 
-and (min-device-width: 481px)
-  and (max-device-width: 768px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait){
-    .toothbrush{
-    
-        height: 100px;
-        width: 500px;
-        object-fit: cover;
-    }
-    .inner-image-quote{
-
-        width: 300px;
-        height: 70px;
-        }
-        .quote{
-
-            font-weight: bold;
-            font-size: 10px;
-            color: white;
-        }
-        .quote1{
-            font-weight: bold;
-            color: white;
-            font-size: 10px;
-        }
-        
-        .image-link{
-            
-            width: 100px;
-            height: 18px;
-        }
-        
-        .explore{
-            font-size: 10px;
-            font-weight: bold;
-            text-align: center;
-        }
-        
-        
-        .people{
-            font-size: 28px;
-        }
-        
-        .mission-statement{
-            font-size: 14px;
-            
-            width: 300px;
-        }
+  .image-link {
+    width: 100px;
+    height: 18px;
   }
-    
-  @media only screen 
-  and (min-device-width: 769px)
-    and (max-device-width: 1024px) 
-    and (-webkit-min-device-pixel-ratio: 2) 
-    and (orientation: portrait){
-        .toothbrush{
-    
-            height: 100px;
-            width: 500px;
-            object-fit: cover;
-        }
-        .inner-image-quote{
-    
-            width: 300px;
-            height: 70px;
-            }
-            .quote{
-    
-                font-weight: bold;
-                font-size: 10px;
-                color: white;
-            }
-            .quote1{
-                font-weight: bold;
-                color: white;
-                font-size: 10px;
-            }
-            
-            .image-link{
-                
-                width: 100px;
-                height: 18px;
-            }
-            
-            .explore{
-                font-size: 10px;
-                font-weight: bold;
-                text-align: center;
-            }
-            
-            
-            .people{
-                font-size: 28px;
-            }
-            
-            .mission-statement{
-                font-size: 14px;
-                
-                width: 300px;
-            }
-    }
-        
-            
+
+  .explore {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .people {
+    font-size: 28px;
+  }
+
+  .mission-statement {
+    font-size: 14px;
+
+    width: 300px;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .toothbrush {
+    height: 100px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .inner-image-quote {
+    width: 300px;
+    height: 70px;
+  }
+  .quote {
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+  }
+  .quote1 {
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+  }
+
+  .image-link {
+    width: 100px;
+    height: 18px;
+  }
+
+  .explore {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .people {
+    font-size: 28px;
+  }
+
+  .mission-statement {
+    font-size: 14px;
+
+    width: 300px;
+  }
+}
