@@ -7,21 +7,20 @@ import homeLife from "./bannerImages/homeLife.jpg";
 import outdoor from "./bannerImages/outdoor.jpg";
 import clothing from "./bannerImages/clothing.jpg";
 import zeroWaste from "./bannerImages/zeroWaste.jpg";
-import { AZ, ZA, lowestFirst, highestFirst } from '../../utils/sort'
-import Sort from "../../components/Sort/Sort"
+import { AZ, ZA, lowestFirst, highestFirst } from "../../utils/sort";
+import Sort from "../../components/Sort/Sort";
 import Search from "../../components/Search/Search";
-
 
 function Products(props) {
   const [category, setCategory] = useState("");
   const [products, setProducts] = useState([]);
   const [headerImage, setHeaderImage] = useState("");
   const [title, setTitle] = useState("");
-  const [searchResult, setSearchResult] = useState([])
-  const [applySort, setApplySort] = useState(false)
-  const [sortType, setSortType] = useState('name-ascending')
+  const [searchResult, setSearchResult] = useState([]);
+  const [applySort, setApplySort] = useState(false);
+  const [sortType, setSortType] = useState("name-ascending");
   let location = useLocation();
-  const [input, setInput] = useState('')
+  const [input, setInput] = useState("");
 
   const categoryName = () => {
     if (location.pathname === "/products/homelife") {
@@ -39,7 +38,7 @@ function Products(props) {
     const fetchProducts = async () => {
       const allProducts = await getProducts();
       setProducts(allProducts);
-      setSearchResult(allProducts)
+      setSearchResult(allProducts);
     };
     fetchProducts();
     // eslint-disable-next-line
@@ -49,10 +48,10 @@ function Products(props) {
     categoryName();
   });
 
-  useEffect(()=>{
-    handleSearch()
+  useEffect(() => {
+    handleSearch();
     // eslint-disable-next-line
-  },[input])
+  }, [input]);
 
   useEffect(() => {
     if (category === "homeLife") {
@@ -70,56 +69,47 @@ function Products(props) {
     }
   }, [category]);
   const handleSort = (type) => {
-    if (type !== '' && type !== undefined) {
-      setSortType(type)
+    if (type !== "" && type !== undefined) {
+      setSortType(type);
     }
     switch (type) {
-      case 'name-ascending':
-        setSearchResult(AZ(searchResult))
-        break
-      case 'name-descending':
-        setSearchResult(ZA(searchResult))
-        break
-      case 'price-ascending':
-        setSearchResult(lowestFirst(searchResult))
-        break
-      case 'price-descending':
-        setSearchResult(highestFirst(searchResult))
-        break
+      case "name-ascending":
+        setSearchResult(AZ(searchResult));
+        break;
+      case "name-descending":
+        setSearchResult(ZA(searchResult));
+        break;
+      case "price-ascending":
+        setSearchResult(lowestFirst(searchResult));
+        break;
+      case "price-descending":
+        setSearchResult(highestFirst(searchResult));
+        break;
       default:
-        break
+        break;
     }
-  }
+  };
 
   if (applySort) {
-    handleSort(sortType)
-    setApplySort(false)
+    handleSort(sortType);
+    setApplySort(false);
   }
-
-  
-
 
   const handleSearch = (event) => {
-    
-    if (input !== ''){
-      
-    const results = products.filter((product) => {
-      return product.name.toLowerCase().includes(input.toLowerCase())
-    });
-    setSearchResult(results)
-    setApplySort(true)
-  } else {
-    setSearchResult(products)
-  }
-  }
-
-  const handleSubmit = (event) => event.preventDefault()
-
-    
-  
+    if (input !== "") {
+      const results = products.filter((product) => {
+        return product.name.toLowerCase().includes(input.toLowerCase());
+      });
+      setSearchResult(results);
+      setApplySort(true);
+    } else {
+      setSearchResult(products);
+    }
+  };
+  const handleSubmit = (event) => event.preventDefault();
 
   return (
-    <div className="w-screen">
+    <div className="w-screen h-full">
       <Layout user={props.user}>
         <div className="flex justify-center relative min-w-full h-80">
           <img src={headerImage} alt={title} className="object-cover w-full" />
@@ -127,37 +117,42 @@ function Products(props) {
             <h2 className="font-bold text-2xl text-gray-100 p-8">{title}</h2>
           </div>
         </div>
-        <Search onSubmit={handleSubmit} handleSearch={handleSearch} setInput = {setInput} />
+        <Search
+          onSubmit={handleSubmit}
+          handleSearch={handleSearch}
+          setInput={setInput}
+        />
         <Sort onSubmit={handleSubmit} handleSort={handleSort} />
-        <div className="products h-full w-full flex flex-wrap justify-center">
-          {input.length > 1 ? (
-            searchResult.map((product,index) => (
-              <Product
-                  _id={product._id}
-                  name={product.name}
-                  imgURL={product.imgURL}
-                  price={product.price}
-                  description={product.description}
-                  key={index}
-                />
-            ))
-          
-          ) : (
-          products
-            .filter((product) => product.category === category)
-            .map((product, index) => {
-              return (
-                <Product
-                  _id={product._id}
-                  name={product.name}
-                  imgURL={product.imgURL}
-                  price={product.price}
-                  description={product.description}
-                  key={index}
-                />
-              )
-            })
-          )}
+        <div className="bg-white">
+          <div className="flex justify-center">
+            <div className="products h-full w-5/6 flex flex-wrap justify-center">
+              {input.length > 1
+                ? searchResult.map((product, index) => (
+                    <Product
+                      _id={product._id}
+                      name={product.name}
+                      imgURL={product.imgURL}
+                      price={product.price}
+                      description={product.description}
+                      key={index}
+                    />
+                  ))
+                : products
+                    .filter((product) => product.category === category)
+                    .map((product, index) => {
+                      return (
+                        <Product
+                          _id={product._id}
+                          name={product.name}
+                          imgURL={product.imgURL}
+                          price={product.price}
+                          description={product.description}
+                          key={index}
+                        />
+                      );
+                    })}
+            </div>
+          </div>
         </div>
       </Layout>
     </div>

@@ -3,7 +3,6 @@ import Layout from "../../components/Layout/Layout";
 import { getProduct, deleteProduct } from "../../services/products";
 import { useParams, Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
-import "./ProductDetail.css";
 
 const ProductDetail = (props) => {
   const { user } = props;
@@ -49,22 +48,24 @@ const ProductDetail = (props) => {
   return (
     <Layout user={props.user}>
       <div className="product-detail h-screen w-screen p-4">
-        <div className="flex mt-36 flex-col place-items-center md:flex-row">
-        <div className="mx-4 rounded-xl shadow-2xl w-3/5 overflow-hidden flex justify-center">
-          <img
-            className="product-detail-image w-48 md:w-96"
-            src={product.imgURL}
-            alt={product.name}
-          />
-        </div>
-        <div className="detail md:w-2/3 md:flex md:flex-col md:justify-center md:place-items-center">
-          <div className="name text-xl font-bold text-six">{product.name}</div>
-          <div className="price text-five font-bold text-md lg:text-2xl">{`$${product.price}`}</div>
-          <div className="description text-three text-lg font-semibold">
-            {product.description}
+        <div className="flex mt-24 flex-col place-items-center md:flex-row">
+          <div className="img-container ml-8 mx-4 rounded-xl shadow-2xl w-3/5 overflow-hidden flex justify-center">
+            <img
+              className="product-detail-image w-48 md:w-96"
+              src={product.imgURL}
+              alt={product.name}
+            />
           </div>
-          {user ? authenticatedOptions : ""}
-        </div>
+          <div className="detail h-full md:w-2/3 md:flex md:flex-col md:justify-center md:place-items-center">
+            <div className="name text-xl font-bold text-six">
+              {product.name}
+            </div>
+            <div className="price text-five font-bold text-md lg:text-2xl">{`$${product.price}`}</div>
+            <div className="description text-three text-lg font-semibold">
+              {product.description}
+            </div>
+            {user ? authenticatedOptions : ""}
+          </div>
         </div>
       </div>
     </Layout>
