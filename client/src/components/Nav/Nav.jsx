@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Nav.css"
-import Search from "../Search/Search";
+
 
 function Nav() {
   return (
