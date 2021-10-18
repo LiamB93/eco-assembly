@@ -1,4 +1,54 @@
-.products-nav{
-  background-color: #DCF9D7;
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
+.products-nav{
+  font-family: "Rowdies";
+  font-size: 18px;
+  align-content: center;
+  background-color: white;
+  box-shadow: 1px 1px 2px .3px #CECECE;
+  height: 50px;
+  overflow: hidden;
+  
+
+}
+.links{
+  padding-left: 110px;
+  display: flex;
+  align-items: center;
+  margin: 20px 10px 10px 10px;
+  gap: 35px;
+  
+ 
+}
+
+.zero-waste:hover{
+  text-decoration: underline;
+}
+.outdoor:hover{
+  text-decoration: underline;
+}
+.clothing:hover{
+  text-decoration: underline;
+}
+.home-life:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+
+  .links{
+    display: flex;
+    font-size: 8px;
+    padding-right: 110px;
+    align-content: center;
+    
+    }
+    .products-nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+    }
+   
 }

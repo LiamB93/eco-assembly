@@ -1,5 +1,8 @@
 import Nav from "../Nav/Nav";
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
+import "./Header.css";
+import logo from '../../ecologo.png'
+
 
 const authenticatedOptions = (
   <>
@@ -13,26 +16,30 @@ const unauthenticatedOptions = (
     <NavLink className="link" to="/sign-in">Log In</NavLink>
   </>
 )
-const alwaysOptions = (
-  <>
-    <NavLink className="link" to="/">ECOassembly</NavLink>
-  </>
-)
+
 
 function Header({ user }) {
   return (
-    <nav>
-      <div className="header">
-        <NavLink className="logo" to="/">ECOassembly</NavLink>
-        <div className="links">
+    <div>
+      <div className="top-header">
+        <div className="promo">
+          <div className = "box">
+            <p className="ten-percent">SAVE 10% SITEWIDE + PLANT 5 TREES WITH EACH PURCHASE</p>
+            <p className="code">USE CODE: PLANTSTREES<br />Free Shipping $50+ | Free Returns | Best Price Guaranteed</p>
+          </div>
+        </div>
+        <div className="header-links">
           {user && <div className="link welcome">Welcome, {user.username}</div>}
-          {alwaysOptions}
           {user ? authenticatedOptions : unauthenticatedOptions}
         </div>
-        <Nav />
-
       </div>
-    </nav>
+      <div className="bottom-header">
+        <Link to="/" className="logo"><img className="hover:opacity-95" src={logo} alt="logo" /></Link>
+      </div>
+      <Nav />
+
+
+    </div>
   )
 }
 

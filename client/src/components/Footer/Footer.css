@@ -1,9 +1,91 @@
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #DCF9D7;
-  justify-content: space-evenly;
-  
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
+
+.footer {
+  font-family: "Rowdies";
+  display: flex;
+  width: 100%;
+  height: 140px;
+  background-color: #D8F3FF;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 2px 1px 1px 1px black;
+  overflow: hidden;
+  }
+
+  .newsletter{
+  column-gap: 30px;
+  }
+
+  .button{
+    margin-top: 15px;
+    /* margin-bottom: 10px; */
+    background-color: #2F4858;
+    color: #57BE56;
+    border-radius: 8%;
+    width: 100px;
+  }
+
+  .label{
+    font-size: 20px;
+    color: #57BE56;
+  }
+
+  .meet-team{
+    color:#57BE56;
+  }
+
+  .text{
+    padding-top: 8px;
+    color: #2F4858;
+  }
+
+  
+.logo img {
+ overflow: hidden;
+ width: 200px;
 }
+
+
+  .logo:hover{
+    opacity: 85%;
+  }
+  .button:hover{
+    opacity: 85%;
+  }
+
+  .liam:hover{
+    opacity: 85%;
+  }
+  .miguel:hover{
+    opacity: 85%;
+  }
+  .ray:hover{
+    opacity: 85%;
+  }
+  .span{
+    color: #577E53;
+  }
+  .ga:hover{
+    opacity: 95%;
+  }
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+    .footer{
+      font-size: 10px;
+      padding-right: 5px;
+    }
+  }
+  @media only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 3){
+    .footer{
+      font-size: 10px;
+      line-height: 10pt;
+    }
+    .newsletter{
+      display: flex;
+      width: 120px;
+
+      
+    }
+  }

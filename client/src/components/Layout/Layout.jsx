@@ -1,15 +1,15 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import "./Layout.css";
 
 function Layout(props) {
   return (
-    <div className="layout">
+    <div className="layout bg-gray-100">
       <Header user={props.user} />
       <div className="layout-children">
         {props.children}
       </div>
       <Footer />
-
     </div>
   )
 }

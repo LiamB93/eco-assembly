@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+
+.top-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #064A75;
+  font-family: "Rowdies";
+  height: 70px;
+  color: white;
+}
+
+.bottom-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DCF9D7;
+  height: 110px;
+  font-family: "Rowdies";
+  align-content: baseline;
+
+}
+
+.header-links{
+  display: flex;
+  align-content: space-between;
+  margin-top: 20px;
+  margin-right: 30px;
+  gap: 20px;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.logo:hover{
+}
+.promo{
+  padding-right: 550px;
+
+}
+.ten-percent{
+  color: #57BE56;
+}
+
+@media only screen 
+and (min-device-width: 375px)
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+{
+
+.box{
+  display: none;
+}
+  
+  
+}
+
+@media only screen 
+and (min-device-width: 375px)
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+  .ipad-portrait { color: red; }
+  .box{
+    display: none;
+  }
+  
+}
+@media only screen 
+and (min-device-width: 481px)
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .box{
+      display: none;
+    }
+  }
