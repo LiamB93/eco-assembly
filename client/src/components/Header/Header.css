@@ -27,6 +27,11 @@
   gap: 20px;
 }
 
+.header-logo{
+  height: 140px;
+  width: 140px;
+}
+
 .link:hover {
   text-decoration: underline;
 }
