@@ -38,9 +38,11 @@
 
   .links{
     display: flex;
-    font-size: 8px;
+    font-size: 9px;
     padding-right: 110px;
     align-content: center;
+    
+    
     
     }
     .products-nav{
@@ -50,5 +52,9 @@
       
 
     }
-   
+    .home-life{
+      width: 80px;
+    }
+    
+    
 }
