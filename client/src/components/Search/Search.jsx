@@ -10,7 +10,7 @@ const Search = (props) => {
                     props.setInput(event.target.value)
                     }}
                 name="Search"
-                placeholder="Search"
+                placeholder="Search Eco Friendly Products"
                 type="text"
                 autoFocus
             />
