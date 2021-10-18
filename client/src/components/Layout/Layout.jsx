@@ -6,7 +6,7 @@ function Layout(props) {
   return (
     <div className="layout bg-gray-100">
       <Header user={props.user} />
-      <div className="layout-children">
+      <div className="layout-children bg-gray-100">
         {props.children}
       </div>
       <Footer />
