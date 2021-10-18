@@ -19,7 +19,7 @@ function Product(props) {
         <div className="product-name text-six text-lg font-bold">
           {props.name}
         </div>
-        <div className="price text-six text-lg font-bold">{`${props.price}`}</div>
+        <div className="price text-six text-lg font-bold">{`$${props.price}`}</div>
       </Link>
     </div>
   );
